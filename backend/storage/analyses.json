@@ -1,0 +1,2163 @@
+{
+  "208a4c75-72db-4f64-b812-a638f5abf844": {
+    "analysis_id": "208a4c75-72db-4f64-b812-a638f5abf844",
+    "content_type": "text",
+    "content": "This is fake news about vaccines",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Text analysis completed. Content appears to be false based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be false based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T13:51:26.066693"
+  },
+  "f2e97aec-d97b-41d8-98e8-c92c0cd27ec2": {
+    "analysis_id": "f2e97aec-d97b-41d8-98e8-c92c0cd27ec2",
+    "content_type": "text",
+    "content": "Hin hininik",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.78,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T14:56:14.001137"
+  },
+  "5ade1399-41ac-4c59-97ef-a8639c451edd": {
+    "analysis_id": "5ade1399-41ac-4c59-97ef-a8639c451edd",
+    "content_type": "text",
+    "content": "sfbsj",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.49,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T15:02:29.550375"
+  },
+  "35a3294e-a882-465c-b3e5-f5d26248209e": {
+    "analysis_id": "35a3294e-a882-465c-b3e5-f5d26248209e",
+    "content_type": "text",
+    "content": "sdfshnfb",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.75,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T15:03:21.970231"
+  },
+  "9be50410-1b80-47e7-bdd7-167c8fc02764": {
+    "analysis_id": "9be50410-1b80-47e7-bdd7-167c8fc02764",
+    "content_type": "text",
+    "content": "shdbshf",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.71,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T16:04:31.837460"
+  },
+  "ef7c90ca-2347-4f0b-8ba3-d8d8af15469a": {
+    "analysis_id": "ef7c90ca-2347-4f0b-8ba3-d8d8af15469a",
+    "content_type": "text",
+    "content": "Covid Vaccine Contains microchip",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.65,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T16:05:03.914627"
+  },
+  "e1addcf7-c12a-428b-a446-c196180c6800": {
+    "analysis_id": "e1addcf7-c12a-428b-a446-c196180c6800",
+    "content_type": "url",
+    "content": "http://localhost:3000/",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.55,
+    "summary": "URL credibility could not be definitively determined.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [],
+      "sources": [
+        "Domain reputation database",
+        "Historical fact-check records"
+      ],
+      "gemini_analysis": "URL credibility could not be definitively determined.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T16:06:35.831580"
+  },
+  "3b9a8539-e3c0-4e4b-b9f3-2b9f3989302c": {
+    "analysis_id": "3b9a8539-e3c0-4e4b-b9f3-2b9f3989302c",
+    "content_type": "text",
+    "content": "yruf\n",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.63,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T16:07:19.092382"
+  },
+  "fd6b2372-067c-4af6-9521-589dbb04b28c": {
+    "analysis_id": "fd6b2372-067c-4af6-9521-589dbb04b28c",
+    "content_type": "text",
+    "content": "Covid caoasfdsifse\n",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.46,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T16:21:11.989427"
+  },
+  "cb87193b-a11d-43ec-9a5c-58ef41861b85": {
+    "analysis_id": "cb87193b-a11d-43ec-9a5c-58ef41861b85",
+    "content_type": "text",
+    "content": "INdian PM is biloogical",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.66,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:06:38.136696"
+  },
+  "bffb80c3-eeed-4e54-99e1-66e7e50d0921": {
+    "analysis_id": "bffb80c3-eeed-4e54-99e1-66e7e50d0921",
+    "content_type": "text",
+    "content": "welrjbwer",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.44,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:08:33.518814"
+  },
+  "30dca530-6c2d-4875-a271-34df8c3325d6": {
+    "analysis_id": "30dca530-6c2d-4875-a271-34df8c3325d6",
+    "content_type": "text",
+    "content": "welrjbwer",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.44,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:08:47.254740"
+  },
+  "cd02c1c1-7665-456e-b0f3-2566aeef2468": {
+    "analysis_id": "cd02c1c1-7665-456e-b0f3-2566aeef2468",
+    "content_type": "text",
+    "content": "welrjbwer",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.44,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:08:48.252988"
+  },
+  "30da0b5a-eaf5-4592-8502-21bf87e3539c": {
+    "analysis_id": "30da0b5a-eaf5-4592-8502-21bf87e3539c",
+    "content_type": "text",
+    "content": "sjkdsd",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:40:35.286684"
+  },
+  "46184557-f804-475a-a289-c45977fc189b": {
+    "analysis_id": "46184557-f804-475a-a289-c45977fc189b",
+    "content_type": "text",
+    "content": "sk fw",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.58,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T17:51:46.531279"
+  },
+  "6a916e04-53a9-474f-a683-3435055e206b": {
+    "analysis_id": "6a916e04-53a9-474f-a683-3435055e206b",
+    "content_type": "text",
+    "content": "sjbfhd",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.43,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T18:31:00.209134"
+  },
+  "3a9f74de-53f6-4309-bd12-3d37a31152b6": {
+    "analysis_id": "3a9f74de-53f6-4309-bd12-3d37a31152b6",
+    "content_type": "text",
+    "content": "skjj fskf wsf",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.46,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T18:47:11.082080"
+  },
+  "92a21fe7-bfcb-4c11-93d9-501ff799424c": {
+    "analysis_id": "92a21fe7-bfcb-4c11-93d9-501ff799424c",
+    "content_type": "text",
+    "content": "sdfjshd kh",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.75,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T18:47:44.293351"
+  },
+  "be8ac2e4-51af-4c36-9737-17afbe662473": {
+    "analysis_id": "be8ac2e4-51af-4c36-9737-17afbe662473",
+    "content_type": "text",
+    "content": "dfsfrssesef",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.73,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T23:18:12.883023"
+  },
+  "75521e88-0edf-4c0f-ac82-d3752f9576ff": {
+    "analysis_id": "75521e88-0edf-4c0f-ac82-d3752f9576ff",
+    "content_type": "text",
+    "content": "sdfsf",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.51,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T23:21:19.684035"
+  },
+  "50d2de93-706e-4693-bc42-63d97305cac7": {
+    "analysis_id": "50d2de93-706e-4693-bc42-63d97305cac7",
+    "content_type": "text",
+    "content": "sdfsse",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.43,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T23:21:28.775682"
+  },
+  "81f232eb-e54e-4405-a8d6-7e2461cf5c4d": {
+    "analysis_id": "81f232eb-e54e-4405-a8d6-7e2461cf5c4d",
+    "content_type": "text",
+    "content": "sfsf",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.66,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-14T23:22:11.932032"
+  },
+  "b2c2e01a-f257-48c0-905b-f51843e9ea1b": {
+    "analysis_id": "b2c2e01a-f257-48c0-905b-f51843e9ea1b",
+    "content_type": "text",
+    "content": "dfa",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.46,
+    "summary": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Language pattern analysis completed",
+        "Cross-referenced with known misinformation patterns",
+        "Checked against fact-checking databases"
+      ],
+      "sources": [],
+      "gemini_analysis": "Text analysis completed. Content appears to be inconclusive based on language patterns and fact-checking.",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T09:43:26.738224"
+  },
+  "0edfa922-b543-45a4-ab7b-3712ee52d964": {
+    "analysis_id": "0edfa922-b543-45a4-ab7b-3712ee52d964",
+    "content_type": "text",
+    "content": "sfkjs f",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.55,
+    "summary": "No clear misinformation indicators found, but verification recommended.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 0 suspicious keywords"
+      ],
+      "sources": [
+        "Internal keyword analysis"
+      ],
+      "gemini_analysis": "MVP analysis based on keyword matching",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T21:38:47.699641"
+  },
+  "7f943033-4211-482c-98f7-55019671d51a": {
+    "analysis_id": "7f943033-4211-482c-98f7-55019671d51a",
+    "content_type": "text",
+    "content": "Indian PM is dead?",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.55,
+    "summary": "No clear misinformation indicators found, but verification recommended.",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 0 suspicious keywords"
+      ],
+      "sources": [
+        "Internal keyword analysis"
+      ],
+      "gemini_analysis": "MVP analysis based on keyword matching",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T21:39:15.445606"
+  },
+  "ea679cfc-060d-4875-af66-9269ec709b03": {
+    "analysis_id": "ea679cfc-060d-4875-af66-9269ec709b03",
+    "content_type": "text",
+    "content": "sdfas",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.75,
+    "summary": "High-confidence AI analysis suggests claim requires verification",
+    "processing_time": 0.01,
+    "detailed_analysis": {
+      "evidence": [
+        "Identified entities: entity1"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "sdfas",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T21:46:59.777563"
+  },
+  "cac5d625-8796-4c9a-8856-4e4811f7e281": {
+    "analysis_id": "cac5d625-8796-4c9a-8856-4e4811f7e281",
+    "content_type": "text",
+    "content": "The COVID-19 vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by Mock Fact Checker confirms this is FALSE",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 1 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "The COVID-19 vaccine contains microchips",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "Mock: FALSE",
+          "source": "Mock Fact Checker",
+          "confidence": 0.8,
+          "summary": "Mock fact-check result"
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T21:56:18.583472"
+  },
+  "e44e8813-dbf7-4a40-8646-a7cb79fdd0c7": {
+    "analysis_id": "e44e8813-dbf7-4a40-8646-a7cb79fdd0c7",
+    "content_type": "text",
+    "content": "ssesfw",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by Mock Fact Checker confirms this is FALSE",
+    "processing_time": 0.02,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 1 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "ssesfw",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "Mock: FALSE",
+          "source": "Mock Fact Checker",
+          "confidence": 0.8,
+          "summary": "Mock fact-check result"
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T21:57:40.534998"
+  },
+  "95c57a17-7fab-482f-96c9-7584e8165a60": {
+    "analysis_id": "95c57a17-7fab-482f-96c9-7584e8165a60",
+    "content_type": "text",
+    "content": "sdfsff",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 1.72,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "sdfsff",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:04:02.645044"
+  },
+  "2428370d-82db-49dd-b64b-2e86854f0c00": {
+    "analysis_id": "2428370d-82db-49dd-b64b-2e86854f0c00",
+    "content_type": "text",
+    "content": "sdfsff",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 5.93,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "sdfsff",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:05:29.588109"
+  },
+  "ad72e9fd-9653-45d3-9d1a-c6aad4ffb8bc": {
+    "analysis_id": "ad72e9fd-9653-45d3-9d1a-c6aad4ffb8bc",
+    "content_type": "text",
+    "content": "sdfsff",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 2.88,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "sdfsff",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:05:38.287491"
+  },
+  "0e91dc1f-90e9-48b2-b11a-1191e7ceed04": {
+    "analysis_id": "0e91dc1f-90e9-48b2-b11a-1191e7ceed04",
+    "content_type": "text",
+    "content": "INdian pm is dead",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 3.39,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "INdian pm is dead",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:35:38.494866"
+  },
+  "1b061167-ff30-46b3-aa37-9c3c5b357761": {
+    "analysis_id": "1b061167-ff30-46b3-aa37-9c3c5b357761",
+    "content_type": "text",
+    "content": "Indian pm is dead?",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 2.74,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "Indian pm is dead?",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:40:12.613683"
+  },
+  "dab6fae5-22ec-4cc5-a9c3-a712a3313144": {
+    "analysis_id": "dab6fae5-22ec-4cc5-a9c3-a712a3313144",
+    "content_type": "text",
+    "content": "The COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by FactCheck.org confirms this is FALSE",
+    "processing_time": 2.78,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 10 fact-check(s)"
+      ],
+      "sources": [
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "The COVID vaccine contains microchips",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2022/05/scicheck-pfizer-ceo-not-referencing-covid-19-vaccines-contrary-to-false-impression-in-posts-about-microchips/",
+          "date": "",
+          "summary": "\u201cAnother Conspiracy Proven True!\u201d referring to 2018 remarks by Pfizer CEO and claims about microchips in COVID-19 vaccines."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/07/scicheck-spoof-video-furthers-microchip-conspiracy-theory/",
+          "date": "",
+          "summary": "A microchip reader for pets detected a chip in the arm of a woman vaccinated against COVID-19."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/05/scicheck-magnet-videos-refuel-bogus-claim-of-vaccine-microchips/",
+          "date": "",
+          "summary": "Videos of magnets sticking to arms prove that the COVID-19 vaccines contain microchips."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Vaccines do not contain microchips. This is not evidence of microchips being contained in vaccines.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/health/phone-scan-microchip-fake/",
+          "date": "2021-08-26T00:00:00Z",
+          "summary": "A video appears to show a phone detecting a new \u201cproduct\u201d when placed near a man\u2019s arm, suggesting he was implanted with an electronic device when vaccinated."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "People in the US and and England will not have to pay for vaccines. In it's initial phase, India's vaccination programme will be also be free of charge. The Indian government has yet to clarify what happens after that.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine is free in India but in the US and England people have to pay"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False. There is no proof that vaccines make you impotent, and these claims have been dubbed \"absolute rubbish\" by India's top drugs regulator.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine will make you impotent"
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Missing context",
+          "source": "AFP Fact Check",
+          "url": "https://factcheck.afp.com/doc.afp.com.9EG2NX",
+          "date": "2021-07-14T12:07:00Z",
+          "summary": "Video of microchip found in Pfizer vaccine"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/08/scicheck-health-sensors-misconstrued-as-government-tracking-microchips/",
+          "date": "",
+          "summary": "\"A new report from '60 Minutes' includes an interview with a scientist from the Pentagon who says that there is now a COVID microchip.\""
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2020/12/covid-19-vaccines-dont-have-patient-tracking-devices/",
+          "date": "",
+          "summary": "COVID-19 vaccines have a microchip that \"tracks the location of the patient.\""
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "This is false. The vaccines do not contain a microchip and there is nothing in a vaccine that could cause a magnet to stick to your skin after getting it.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/online/covid-vaccine-magnet/",
+          "date": "2021-05-14T00:00:00Z",
+          "summary": "Magnets can stick to your arm after a Covid-19 jab because they contain a microchip or other metals."
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:52:38.501893"
+  },
+  "51fcfdd1-2210-4aa5-ba00-fa72e58e6685": {
+    "analysis_id": "51fcfdd1-2210-4aa5-ba00-fa72e58e6685",
+    "content_type": "text",
+    "content": "The COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by FactCheck.org confirms this is FALSE",
+    "processing_time": 17.76,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 10 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "The COVID vaccine contains microchips",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2022/05/scicheck-pfizer-ceo-not-referencing-covid-19-vaccines-contrary-to-false-impression-in-posts-about-microchips/",
+          "date": "",
+          "summary": "\u201cAnother Conspiracy Proven True!\u201d referring to 2018 remarks by Pfizer CEO and claims about microchips in COVID-19 vaccines."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False. There is no proof that vaccines make you impotent, and these claims have been dubbed \"absolute rubbish\" by India's top drugs regulator.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine will make you impotent"
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "People in the US and and England will not have to pay for vaccines. In it's initial phase, India's vaccination programme will be also be free of charge. The Indian government has yet to clarify what happens after that.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine is free in India but in the US and England people have to pay"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/07/scicheck-spoof-video-furthers-microchip-conspiracy-theory/",
+          "date": "",
+          "summary": "A microchip reader for pets detected a chip in the arm of a woman vaccinated against COVID-19."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/05/scicheck-magnet-videos-refuel-bogus-claim-of-vaccine-microchips/",
+          "date": "",
+          "summary": "Videos of magnets sticking to arms prove that the COVID-19 vaccines contain microchips."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Vaccines do not contain microchips. This is not evidence of microchips being contained in vaccines.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/health/phone-scan-microchip-fake/",
+          "date": "2021-08-26T00:00:00Z",
+          "summary": "A video appears to show a phone detecting a new \u201cproduct\u201d when placed near a man\u2019s arm, suggesting he was implanted with an electronic device when vaccinated."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Missing context",
+          "source": "AFP Fact Check",
+          "url": "https://factcheck.afp.com/doc.afp.com.9EG2NX",
+          "date": "2021-07-14T12:07:00Z",
+          "summary": "Video of microchip found in Pfizer vaccine"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/08/scicheck-health-sensors-misconstrued-as-government-tracking-microchips/",
+          "date": "",
+          "summary": "\"A new report from '60 Minutes' includes an interview with a scientist from the Pentagon who says that there is now a COVID microchip.\""
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "This is false. The vaccines do not contain a microchip and there is nothing in a vaccine that could cause a magnet to stick to your skin after getting it.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/online/covid-vaccine-magnet/",
+          "date": "2021-05-14T00:00:00Z",
+          "summary": "Magnets can stick to your arm after a Covid-19 jab because they contain a microchip or other metals."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2020/12/covid-19-vaccines-dont-have-patient-tracking-devices/",
+          "date": "",
+          "summary": "COVID-19 vaccines have a microchip that \"tracks the location of the patient.\""
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T22:54:23.080733"
+  },
+  "a3a4ad89-4b5c-4c20-bc9a-af01b8569fb0": {
+    "analysis_id": "a3a4ad89-4b5c-4c20-bc9a-af01b8569fb0",
+    "content_type": "text",
+    "content": "The COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by FactCheck.org confirms this is FALSE",
+    "processing_time": 23.07,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 10 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "The COVID vaccine contains microchips",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2022/05/scicheck-pfizer-ceo-not-referencing-covid-19-vaccines-contrary-to-false-impression-in-posts-about-microchips/",
+          "date": "",
+          "summary": "\u201cAnother Conspiracy Proven True!\u201d referring to 2018 remarks by Pfizer CEO and claims about microchips in COVID-19 vaccines."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/07/scicheck-spoof-video-furthers-microchip-conspiracy-theory/",
+          "date": "",
+          "summary": "A microchip reader for pets detected a chip in the arm of a woman vaccinated against COVID-19."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/05/scicheck-magnet-videos-refuel-bogus-claim-of-vaccine-microchips/",
+          "date": "",
+          "summary": "Videos of magnets sticking to arms prove that the COVID-19 vaccines contain microchips."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False. There is no proof that vaccines make you impotent, and these claims have been dubbed \"absolute rubbish\" by India's top drugs regulator.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine will make you impotent"
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "People in the US and and England will not have to pay for vaccines. In it's initial phase, India's vaccination programme will be also be free of charge. The Indian government has yet to clarify what happens after that.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/55768656",
+          "date": "2021-01-31T00:00:00Z",
+          "summary": "The vaccine is free in India but in the US and England people have to pay"
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Vaccines do not contain microchips. This is not evidence of microchips being contained in vaccines.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/health/phone-scan-microchip-fake/",
+          "date": "2021-08-26T00:00:00Z",
+          "summary": "A video appears to show a phone detecting a new \u201cproduct\u201d when placed near a man\u2019s arm, suggesting he was implanted with an electronic device when vaccinated."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Missing context",
+          "source": "AFP Fact Check",
+          "url": "https://factcheck.afp.com/doc.afp.com.9EG2NX",
+          "date": "2021-07-14T12:07:00Z",
+          "summary": "Video of microchip found in Pfizer vaccine"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/08/scicheck-health-sensors-misconstrued-as-government-tracking-microchips/",
+          "date": "",
+          "summary": "\"A new report from '60 Minutes' includes an interview with a scientist from the Pentagon who says that there is now a COVID microchip.\""
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2020/12/covid-19-vaccines-dont-have-patient-tracking-devices/",
+          "date": "",
+          "summary": "COVID-19 vaccines have a microchip that \"tracks the location of the patient.\""
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "This is false. The vaccines do not contain a microchip and there is nothing in a vaccine that could cause a magnet to stick to your skin after getting it.",
+          "source": "Full Fact",
+          "url": "https://fullfact.org/online/covid-vaccine-magnet/",
+          "date": "2021-05-14T00:00:00Z",
+          "summary": "Magnets can stick to your arm after a Covid-19 jab because they contain a microchip or other metals."
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T23:13:27.959467"
+  },
+  "9b4643dd-9639-4773-b2a5-34586e386bb3": {
+    "analysis_id": "9b4643dd-9639-4773-b2a5-34586e386bb3",
+    "content_type": "text",
+    "content": "The COVID-19 vaccine contains microchips that track your location\n",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by FactCheck.org confirms this is FALSE",
+    "processing_time": 2.42,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 6 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "The COVID-19 vaccine contains microchips that track your location\n",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2022/05/scicheck-pfizer-ceo-not-referencing-covid-19-vaccines-contrary-to-false-impression-in-posts-about-microchips/",
+          "date": "",
+          "summary": "\u201cAnother Conspiracy Proven True!\u201d referring to 2018 remarks by Pfizer CEO and claims about microchips in COVID-19 vaccines."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/05/scicheck-magnet-videos-refuel-bogus-claim-of-vaccine-microchips/",
+          "date": "",
+          "summary": "Videos of magnets sticking to arms prove that the COVID-19 vaccines contain microchips."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/07/scicheck-spoof-video-furthers-microchip-conspiracy-theory/",
+          "date": "",
+          "summary": "A microchip reader for pets detected a chip in the arm of a woman vaccinated against COVID-19."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2021/08/scicheck-health-sensors-misconstrued-as-government-tracking-microchips/",
+          "date": "",
+          "summary": "\"A new report from '60 Minutes' includes an interview with a scientist from the Pentagon who says that there is now a COVID microchip.\""
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "1",
+          "source": "AFP Fact Check",
+          "url": "https://factcheck.afp.com/hoax-about-bill-gates-plan-microchip-vaccine-circulates-online",
+          "date": "2020-06-25T10:25:00Z",
+          "summary": "Bill Gates\u2019 \u201cultimate goal\u201d is to microchip COVID-19 vaccine in order to create virtual IDs"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "FactCheck.org",
+          "url": "https://www.factcheck.org/2020/12/covid-19-vaccines-dont-have-patient-tracking-devices/",
+          "date": "",
+          "summary": "COVID-19 vaccines have a microchip that \"tracks the location of the patient.\""
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-15T23:47:54.554311"
+  },
+  "1097eed3-2d18-4d82-a4c7-9872a4d93704": {
+    "analysis_id": "1097eed3-2d18-4d82-a4c7-9872a4d93704",
+    "content_type": "url",
+    "content": "http://localhost:3000/",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.65,
+    "summary": "Mock analysis - configure API keys for real results",
+    "processing_time": 0.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Mock analysis performed"
+      ],
+      "sources": [
+        "Mock Data Service"
+      ],
+      "gemini_analysis": "http://localhost:3000/",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T00:19:59.676251"
+  },
+  "779db09b-d918-4496-a61c-810de5716c8e": {
+    "analysis_id": "779db09b-d918-4496-a61c-810de5716c8e",
+    "content_type": "text",
+    "content": "ads",
+    "language": "en",
+    "user_id": null,
+    "verdict": "false",
+    "confidence_score": 0.95,
+    "summary": "Fact-check by The Quint confirms this is FALSE",
+    "processing_time": 2.68,
+    "detailed_analysis": {
+      "evidence": [
+        "Found 10 fact-check(s)"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Fact Check API",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "ads",
+      "factcheck_results": [
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Senator Denies",
+          "source": "Lead Stories",
+          "url": "https://leadstories.com/hoax-alert/2025/08/fact-check-video-of-amy-klobuchar-saying-perfect-titties-about-the-sydney-sweeney-ad-is-not-authentic-digital-manipulation.html",
+          "date": "2025-08-21T20:35:47Z",
+          "summary": "Video authentically captures Senator Amy Klobuchar complaining that if Republicans have beautiful girls with perfect titties in their ads, Democrats ads for Democrats, too."
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "The Quint",
+          "url": "https://www.thequint.com/news/webqoof/fake-amul-cartoon-ad-viral-usa-tariffs-india-fact-check",
+          "date": "2025-08-14T09:16:45Z",
+          "summary": "amul india's ad based on the tariffs imposed by the USA"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "Press Trust of India",
+          "url": "https://www.ptinews.com/fact-detail/pti-fact-check-digitally-altered-amul-ad-mocking-trump-s-tariff-hike-circulates-on-social-media-with-false-claim-details-inside/2821786",
+          "date": "",
+          "summary": "Digitally altered Amul ad mocking Trump\u2019s tariff hike circulates on social media with false claim; details inside"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False",
+          "source": "Newschecker",
+          "url": "https://newschecker.in/fact-check/fake-amul-ad-mocking-trump-tariffs-shared-as-real",
+          "date": "2025-08-13T00:00:00Z",
+          "summary": "A purported billboard ad by Amul, mocking US president Donald Trump over his decision to double tariffs on India\u2019s exports to 50%, saying, \u201cNow, \u2018Made in India\u2019 is a luxury brand in the US.\u201d"
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Originated as Satire",
+          "source": "Snopes",
+          "url": "https://www.snopes.com/fact-check/american-eagle-apology-sydney-sweeney/",
+          "date": "2025-07-31T14:42:56Z",
+          "summary": "An image authentically shows an in-jest apology letter authored by clothing retailer American Eagle, in response to an alleged controversy over its \"Sydney Sweeney Has Great Jeans\" advertising campaign."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Unsubstantiated",
+          "source": "AFP Fact Check",
+          "url": "https://factcheck.afp.com/doc.afp.com.62692CP",
+          "date": "2025-06-13T18:16:00Z",
+          "summary": "Craigslist ad seeking \"seat fillers\" for Trump military parade is authentic"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "False. The advertisement was created as an unrelated prank.",
+          "source": "AAP",
+          "url": "https://www.aap.com.au/factcheck/misinformation-swirls-amid-la-unrest/",
+          "date": "2025-06-13T15:10:05Z",
+          "summary": "A Craigslist advertisement offered payment for people to protest and riot in Los Angeles."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Satire Origin",
+          "source": "Lead Stories",
+          "url": "https://leadstories.com/hoax-alert/2025/06/fact-check-toughest-badasses-craigslist-hakeem-jeffries.html",
+          "date": "2025-06-11T16:32:04Z",
+          "summary": "A controversial June 2025 Craigslist ad seeking the \"toughest badasses\" in Los Angeles was traced to Rep. Hakeem Jeffries"
+        },
+        {
+          "verdict": "FALSE",
+          "original_rating": "This is false",
+          "source": "AP News",
+          "url": "https://apnews.com/article/fact-check-los-angeles-paid-protesters-prank-48792aa47dcc2d8eeb9547d79d530037",
+          "date": "",
+          "summary": "A Craigslist ad seeking \u201cthe toughest badasses in the city\u201d is proof that Los Angeles demonstrations over immigration raids are made up of paid protesters."
+        },
+        {
+          "verdict": "UNKNOWN",
+          "original_rating": "Recycled Spoof",
+          "source": "Lead Stories",
+          "url": "https://leadstories.com/hoax-alert/2025/06/fact-check-chikfila-did-not-drop-pride-month-ad-with-joke-about-pickles-not-touching.html",
+          "date": "2025-06-03T19:04:05Z",
+          "summary": "Chick-Fil-A dropped a 2025 Pride Month ad that says their \"pickles don't touch, just like God intended.\""
+        }
+      ],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T00:25:10.537146"
+  },
+  "40a4f59f-4f5d-4d70-b9b5-33080356cf7b": {
+    "analysis_id": "40a4f59f-4f5d-4d70-b9b5-33080356cf7b",
+    "content_type": "text",
+    "content": "Indian pm isdead\n",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 16.95,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "Indian pm isdead\n",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T12:38:22.032522"
+  },
+  "f255eb4c-3d21-42c3-98d9-654e8edc995a": {
+    "analysis_id": "f255eb4c-3d21-42c3-98d9-654e8edc995a",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.62,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "COVID vaccine contains microchips",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T13:43:31.034155"
+  },
+  "367f20cd-8f3c-47be-b9b4-8e065aad738b": {
+    "analysis_id": "367f20cd-8f3c-47be-b9b4-8e065aad738b",
+    "content_type": "text",
+    "content": "sdfsd",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 8.02,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "sdfsd",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T13:53:13.381362"
+  },
+  "86a97c0c-5793-4c1c-baa5-8eb08f8a8b94": {
+    "analysis_id": "86a97c0c-5793-4c1c-baa5-8eb08f8a8b94",
+    "content_type": "text",
+    "content": "Vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 9.61,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "Vaccine contains microchips",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T13:55:41.780403"
+  },
+  "d5268b1f-be91-41a1-94f5-ae752cc6450f": {
+    "analysis_id": "d5268b1f-be91-41a1-94f5-ae752cc6450f",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 12.0,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "COVID vaccine contains microchips",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T13:59:03.389273"
+  },
+  "1a6d135f-3112-4cd7-9b90-6a6b7d85a758": {
+    "analysis_id": "1a6d135f-3112-4cd7-9b90-6a6b7d85a758",
+    "content_type": "text",
+    "content": "asdad",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 6.78,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "asdad",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T14:00:22.539731"
+  },
+  "7ca6f9f5-5c6c-4b15-85fd-7b4d3d158b59": {
+    "analysis_id": "7ca6f9f5-5c6c-4b15-85fd-7b4d3d158b59",
+    "content_type": "text",
+    "content": "Covid vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.01,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "Covid vaccine contains microchips",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T14:03:23.973389"
+  },
+  "cde8f97d-2bb5-4ef5-bee9-7ed16f79ff6b": {
+    "analysis_id": "cde8f97d-2bb5-4ef5-bee9-7ed16f79ff6b",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.304213285446167,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'COVID vaccine contains microchips', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T14:10:28.650622"
+  },
+  "46a78e88-b15a-4431-9acb-37d163c596d7": {
+    "analysis_id": "46a78e88-b15a-4431-9acb-37d163c596d7",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.315091371536255,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'COVID vaccine contains microchips', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T14:10:38.324262"
+  },
+  "2b23eaf4-34cb-49cf-8772-8ade98478e69": {
+    "analysis_id": "2b23eaf4-34cb-49cf-8772-8ade98478e69",
+    "content_type": "text",
+    "content": "Covid vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.667479515075684,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'Covid vaccine contains microchips', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null
+    },
+    "timestamp": "2025-09-16T14:13:50.009710"
+  },
+  "2ca499d4-9923-4126-9bcf-e750b2b3ca23": {
+    "analysis_id": "2ca499d4-9923-4126-9bcf-e750b2b3ca23",
+    "content_type": "text",
+    "content": "Covid vaccine contains microchips ",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 10.162510395050049,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'Covid vaccine contains microchips ', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null,
+      "educational": {
+        "status": "success",
+        "misinformation_analysis": {
+          "Logical breakdown": "- **Biological impossibility:**  Human bodies are complex. Injecting a microchip, which is a sophisticated electronic device, requires specialized equipment and procedures far beyond the capabilities of a standard vaccine injection.  It's like saying you can fit an entire computer into a sugar cube. \n- **Scientific consensus:** Leading medical and scientific organizations worldwide, including the ICMR (Indian Council of Medical Research) and WHO (World Health Organization), have explicitly stated that COVID-19 vaccines do not contain microchips.  This is based on rigorous testing and research.\n- **Manufacturing limitations:** The scale of vaccine production globally would make secretly adding microchips impossible. The process is highly regulated and transparent, with multiple checks and balances.",
+          "Spread": "- **WhatsApp forwards:** This claim spreads rapidly through WhatsApp groups, often with images and videos that are manipulated or taken out of context.  \n- **Social media platforms:**  Facebook, Twitter, and YouTube have all seen the spread of this misinformation, often using sensational headlines and fear-mongering tactics. \n- **Unverified websites and blogs:**  Many websites and blogs publish false information without any credible sources or scientific evidence."
+        },
+        "indian_context": {
+          "Indian institutions": "- The ICMR (Indian Council of Medical Research) has repeatedly debunked this claim, providing scientific evidence on the composition of COVID-19 vaccines.\n- The PIB (Press Information Bureau) has issued fact-checks and advisories against this misinformation, urging citizens to rely on credible sources.\n- The government's vaccination drive is transparent, and the vaccines used are approved by the CDSCO (Central Drugs Standard Control Organisation), ensuring safety and efficacy.  Think of it like getting a quality check from a trusted government agency before buying any product.",
+          "Simple English + Hindi analogies": "- \u0938\u094b\u091a\u093f\u090f, \u0905\u0917\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u092e\u0947\u0902 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a \u0939\u094b\u0924\u0940, \u0924\u094b \u0909\u0938\u0947 \u092c\u0928\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0916\u0930\u094d\u091a\u093e \u0914\u0930 \u0924\u0915\u0928\u0940\u0915 \u0932\u0917\u0924\u0940!  \u092f\u0939 \u090f\u0915 \u0938\u093e\u0927\u093e\u0930\u0923 \u0907\u0902\u091c\u0947\u0915\u094d\u0936\u0928 \u0928\u0939\u0940\u0902, \u090f\u0915 \u092c\u0939\u0941\u0924 \u0939\u0940 \u091c\u091f\u093f\u0932 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u0939\u094b\u0924\u0940\u0964 (Imagine the cost and technology needed to put a microchip in a vaccine! It's not a simple injection, it's a very complex process.)\n-  \u091c\u0948\u0938\u0947 \u0939\u092e \u0915\u093f\u0938\u0940 \u0926\u0941\u0915\u093e\u0928 \u0938\u0947 \u0938\u093e\u092e\u093e\u0928 \u0916\u0930\u0940\u0926\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0909\u0938\u0915\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0926\u0947\u0916\u0924\u0947 \u0939\u0948\u0902, \u0935\u0948\u0938\u0947 \u0939\u0940 \u0938\u0930\u0915\u093e\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u0915\u0940 \u091c\u093e\u0901\u091a \u0915\u0930\u0915\u0947 \u0939\u0940 \u0909\u0938\u0947 \u092e\u0902\u095b\u0942\u0930\u0940 \u0926\u0947\u0924\u0940 \u0939\u0948\u0964 (Just like we check the quality of goods before buying them from a shop, the government checks the vaccine before approving it.)",
+          "Indian law/policy": "- Spreading false information about vaccines can have legal consequences under various laws related to public health and misinformation.  The government actively works to combat such misinformation to protect public health."
+        },
+        "pattern_recognition": {
+          "Fear language": "- Claims that use fear-mongering language, such as 'they don't want you to know,' or 'hidden truth,' are often red flags.\n-  Exaggerated claims about government conspiracies or hidden agendas should be treated with skepticism.",
+          "Checklist": "- **Who is the source?** Is it a verified news outlet, a government agency (like PIB), or an anonymous WhatsApp forward? \n- **Is the information emotionally manipulative?** Does it play on your fears or anxieties? \n- **Does the source provide evidence?**  Are there credible scientific studies or expert opinions to back up the claim?",
+          "Red flags specific to Indian context": "- Be wary of messages claiming that vaccines are part of a Western conspiracy against India. \n- Messages that use religious or caste-based appeals to spread misinformation should be treated with extreme caution."
+        },
+        "real_story": {
+          "Evidence-based truth": "-  The composition of COVID-19 vaccines is publicly available and has been rigorously tested.  The ICMR and CDSCO websites provide detailed information.  \n-  Numerous fact-checking websites (e.g., BOOM, Alt News) have debunked the microchip claim with evidence.",
+          "Historical context": "-  The spread of misinformation has led to vaccine hesitancy and, in some cases, violence (e.g., WhatsApp lynchings).  The COVID-19 pandemic saw a surge in health-related misinformation, causing significant harm.\n-  Political propaganda often uses misinformation to influence public opinion, and health-related claims are frequently targeted.",
+          "Balanced perspective": "- While some individuals may have concerns about vaccines, these concerns should be addressed through credible sources and scientific evidence, not through unsubstantiated claims about microchips.  The benefits of vaccination far outweigh the risks."
+        },
+        "raw_response": "```json\n{\n  \"misinformation_analysis\": {\n    \"Logical breakdown\": \"- **Biological impossibility:**  Human bodies are complex. Injecting a microchip, which is a sophisticated electronic device, requires specialized equipment and procedures far beyond the capabilities of a standard vaccine injection.  It's like saying you can fit an entire computer into a sugar cube. \\n- **Scientific consensus:** Leading medical and scientific organizations worldwide, including the ICMR (Indian Council of Medical Research) and WHO (World Health Organization), have explicitly stated that COVID-19 vaccines do not contain microchips.  This is based on rigorous testing and research.\\n- **Manufacturing limitations:** The scale of vaccine production globally would make secretly adding microchips impossible. The process is highly regulated and transparent, with multiple checks and balances.\",\n    \"Spread\": \"- **WhatsApp forwards:** This claim spreads rapidly through WhatsApp groups, often with images and videos that are manipulated or taken out of context.  \\n- **Social media platforms:**  Facebook, Twitter, and YouTube have all seen the spread of this misinformation, often using sensational headlines and fear-mongering tactics. \\n- **Unverified websites and blogs:**  Many websites and blogs publish false information without any credible sources or scientific evidence.\"\n  },\n  \"indian_context\": {\n    \"Indian institutions\": \"- The ICMR (Indian Council of Medical Research) has repeatedly debunked this claim, providing scientific evidence on the composition of COVID-19 vaccines.\\n- The PIB (Press Information Bureau) has issued fact-checks and advisories against this misinformation, urging citizens to rely on credible sources.\\n- The government's vaccination drive is transparent, and the vaccines used are approved by the CDSCO (Central Drugs Standard Control Organisation), ensuring safety and efficacy.  Think of it like getting a quality check from a trusted government agency before buying any product.\",\n    \"Simple English + Hindi analogies\": \"- \u0938\u094b\u091a\u093f\u090f, \u0905\u0917\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u092e\u0947\u0902 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a \u0939\u094b\u0924\u0940, \u0924\u094b \u0909\u0938\u0947 \u092c\u0928\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0916\u0930\u094d\u091a\u093e \u0914\u0930 \u0924\u0915\u0928\u0940\u0915 \u0932\u0917\u0924\u0940!  \u092f\u0939 \u090f\u0915 \u0938\u093e\u0927\u093e\u0930\u0923 \u0907\u0902\u091c\u0947\u0915\u094d\u0936\u0928 \u0928\u0939\u0940\u0902, \u090f\u0915 \u092c\u0939\u0941\u0924 \u0939\u0940 \u091c\u091f\u093f\u0932 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u0939\u094b\u0924\u0940\u0964 (Imagine the cost and technology needed to put a microchip in a vaccine! It's not a simple injection, it's a very complex process.)\\n-  \u091c\u0948\u0938\u0947 \u0939\u092e \u0915\u093f\u0938\u0940 \u0926\u0941\u0915\u093e\u0928 \u0938\u0947 \u0938\u093e\u092e\u093e\u0928 \u0916\u0930\u0940\u0926\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0909\u0938\u0915\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0926\u0947\u0916\u0924\u0947 \u0939\u0948\u0902, \u0935\u0948\u0938\u0947 \u0939\u0940 \u0938\u0930\u0915\u093e\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u0915\u0940 \u091c\u093e\u0901\u091a \u0915\u0930\u0915\u0947 \u0939\u0940 \u0909\u0938\u0947 \u092e\u0902\u095b\u0942\u0930\u0940 \u0926\u0947\u0924\u0940 \u0939\u0948\u0964 (Just like we check the quality of goods before buying them from a shop, the government checks the vaccine before approving it.)\",\n    \"Indian law/policy\": \"- Spreading false information about vaccines can have legal consequences under various laws related to public health and misinformation.  The government actively works to combat such misinformation to protect public health.\"\n  },\n  \"pattern_recognition\": {\n    \"Fear language\": \"- Claims that use fear-mongering language, such as 'they don't want you to know,' or 'hidden truth,' are often red flags.\\n-  Exaggerated claims about government conspiracies or hidden agendas should be treated with skepticism.\",\n    \"Checklist\": \"- **Who is the source?** Is it a verified news outlet, a government agency (like PIB), or an anonymous WhatsApp forward? \\n- **Is the information emotionally manipulative?** Does it play on your fears or anxieties? \\n- **Does the source provide evidence?**  Are there credible scientific studies or expert opinions to back up the claim?\",\n    \"Red flags specific to Indian context\": \"- Be wary of messages claiming that vaccines are part of a Western conspiracy against India. \\n- Messages that use religious or caste-based appeals to spread misinformation should be treated with extreme caution.\"\n  },\n  \"real_story\": {\n    \"Evidence-based truth\": \"-  The composition of COVID-19 vaccines is publicly available and has been rigorously tested.  The ICMR and CDSCO websites provide detailed information.  \\n-  Numerous fact-checking websites (e.g., BOOM, Alt News) have debunked the microchip claim with evidence.\",\n    \"Historical context\": \"-  The spread of misinformation has led to vaccine hesitancy and, in some cases, violence (e.g., WhatsApp lynchings).  The COVID-19 pandemic saw a surge in health-related misinformation, causing significant harm.\\n-  Political propaganda often uses misinformation to influence public opinion, and health-related claims are frequently targeted.\",\n    \"Balanced perspective\": \"- While some individuals may have concerns about vaccines, these concerns should be addressed through credible sources and scientific evidence, not through unsubstantiated claims about microchips.  The benefits of vaccination far outweigh the risks.\"\n  }\n}\n```\n"
+      }
+    },
+    "timestamp": "2025-09-16T14:17:53.927491"
+  },
+  "264e7ea1-9e46-412a-95a8-5a23138c4158": {
+    "analysis_id": "264e7ea1-9e46-412a-95a8-5a23138c4158",
+    "content_type": "text",
+    "content": "sfsf",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 7.656472682952881,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'sfsf', 'entities': [], 'claim_type': 'unidentifiable', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [],\\n  \"key_entities\": [],\\n  \"claim_type\": \"unidentifiable\",\\n  \"confidence_level\": 0.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null,
+      "educational": {
+        "status": "success",
+        "misinformation_analysis": {
+          "Logical breakdown": "The claim \"sfsf\" lacks any inherent meaning or proposition.  It cannot be evaluated for truth or falsehood as it is not a statement or assertion.  Misinformation requires a claim to be assessed.",
+          "Spread": "Meaningless strings of characters like \"sfsf\" are unlikely to spread widely on their own.  However, such strings could be embedded within a larger piece of misinformation, perhaps as a code or placeholder within a manipulated image or video.  They might also be used as a nonsensical filler in spam messages."
+        },
+        "indian_context": {
+          "Reference Indian institutions": "Since \"sfsf\" is not a claim, no specific Indian institution like ICMR, PIB, RBI, or the Election Commission is directly relevant. However, these institutions play crucial roles in combating misinformation.  For example, the PIB fact-checks government-related claims, while the Election Commission works to ensure fair elections free from misinformation.",
+          "Simple English + Hindi analogies": "Imagine someone sending you a message with just the words \"jhjh.\"  It's meaningless, right?  Similarly, \"sfsf\" is just a random collection of letters with no informational value.  \u091c\u0948\u0938\u0947 \u0915\u094b\u0908 \u0906\u092a\u0915\u094b \u0938\u093f\u0930\u094d\u095e \"jhjh\" \u0932\u093f\u0916\u0915\u0930 \u092e\u0948\u0938\u0947\u091c \u092d\u0947\u091c\u0947, \u0935\u0948\u0938\u093e \u0939\u0940 \"sfsf\" \u092d\u0940 \u092c\u0947\u092e\u0924\u0932\u092c \u0939\u0948\u0964",
+          "How Indian law/policy protects citizens": "The Indian government has taken steps to combat the spread of misinformation, including legal provisions against spreading false news that can cause harm.  The Information Technology Act, 2000, and other laws can be used to address the spread of harmful misinformation, though the application of these laws requires careful consideration of freedom of speech."
+        },
+        "pattern_recognition": {
+          "Fear language": "\"sfsf\" itself doesn't use fear language, but it could be part of a larger message that does.  Look for claims that evoke strong emotions like fear, anger, or hatred to manipulate you.",
+          "Checklist": "Always ask: Who is the source? Is it a verified government source like PIB or a forwarded message from an unknown contact? Does the message try to manipulate your emotions?  Does it make outrageous claims without evidence?",
+          "Red flags specific to Indian context": "Be wary of messages playing on religious or caste tensions, or those that exploit existing social divisions in India.  Also, be cautious of messages promising unrealistic benefits or containing unsubstantiated medical claims."
+        },
+        "real_story": {
+          "Evidence-based truth": "There is no truth or falsehood to \"sfsf\" itself.  It's meaningless.  The real story is the importance of critical thinking and verifying information before sharing it.",
+          "Historical context": "Past instances of misinformation in India, such as WhatsApp lynchings, COVID-19 vaccine misinformation, and politically motivated fake news, highlight the dangers of unverified information.  These events underscore the need for media literacy and responsible information sharing.",
+          "Balanced perspective": "The absence of meaning in \"sfsf\" doesn't diminish the importance of fighting misinformation.  It highlights the need for vigilance and critical evaluation of any information received, regardless of its form."
+        },
+        "raw_response": "```json\n{\n  \"misinformation_analysis\": {\n    \"Logical breakdown\": \"The claim \\\"sfsf\\\" lacks any inherent meaning or proposition.  It cannot be evaluated for truth or falsehood as it is not a statement or assertion.  Misinformation requires a claim to be assessed.\",\n    \"Spread\": \"Meaningless strings of characters like \\\"sfsf\\\" are unlikely to spread widely on their own.  However, such strings could be embedded within a larger piece of misinformation, perhaps as a code or placeholder within a manipulated image or video.  They might also be used as a nonsensical filler in spam messages.\"\n  },\n  \"indian_context\": {\n    \"Reference Indian institutions\": \"Since \\\"sfsf\\\" is not a claim, no specific Indian institution like ICMR, PIB, RBI, or the Election Commission is directly relevant. However, these institutions play crucial roles in combating misinformation.  For example, the PIB fact-checks government-related claims, while the Election Commission works to ensure fair elections free from misinformation.\",\n    \"Simple English + Hindi analogies\": \"Imagine someone sending you a message with just the words \\\"jhjh.\\\"  It's meaningless, right?  Similarly, \\\"sfsf\\\" is just a random collection of letters with no informational value.  \u091c\u0948\u0938\u0947 \u0915\u094b\u0908 \u0906\u092a\u0915\u094b \u0938\u093f\u0930\u094d\u095e \\\"jhjh\\\" \u0932\u093f\u0916\u0915\u0930 \u092e\u0948\u0938\u0947\u091c \u092d\u0947\u091c\u0947, \u0935\u0948\u0938\u093e \u0939\u0940 \\\"sfsf\\\" \u092d\u0940 \u092c\u0947\u092e\u0924\u0932\u092c \u0939\u0948\u0964\",\n    \"How Indian law/policy protects citizens\": \"The Indian government has taken steps to combat the spread of misinformation, including legal provisions against spreading false news that can cause harm.  The Information Technology Act, 2000, and other laws can be used to address the spread of harmful misinformation, though the application of these laws requires careful consideration of freedom of speech.\"\n  },\n  \"pattern_recognition\": {\n    \"Fear language\": \"\\\"sfsf\\\" itself doesn't use fear language, but it could be part of a larger message that does.  Look for claims that evoke strong emotions like fear, anger, or hatred to manipulate you.\",\n    \"Checklist\": \"Always ask: Who is the source? Is it a verified government source like PIB or a forwarded message from an unknown contact? Does the message try to manipulate your emotions?  Does it make outrageous claims without evidence?\",\n    \"Red flags specific to Indian context\": \"Be wary of messages playing on religious or caste tensions, or those that exploit existing social divisions in India.  Also, be cautious of messages promising unrealistic benefits or containing unsubstantiated medical claims.\"\n  },\n  \"real_story\": {\n    \"Evidence-based truth\": \"There is no truth or falsehood to \\\"sfsf\\\" itself.  It's meaningless.  The real story is the importance of critical thinking and verifying information before sharing it.\",\n    \"Historical context\": \"Past instances of misinformation in India, such as WhatsApp lynchings, COVID-19 vaccine misinformation, and politically motivated fake news, highlight the dangers of unverified information.  These events underscore the need for media literacy and responsible information sharing.\",\n    \"Balanced perspective\": \"The absence of meaning in \\\"sfsf\\\" doesn't diminish the importance of fighting misinformation.  It highlights the need for vigilance and critical evaluation of any information received, regardless of its form.\"\n  }\n}\n```\n"
+      }
+    },
+    "timestamp": "2025-09-16T14:19:04.559288"
+  },
+  "21f12358-8cef-45e3-b089-a721d7e7920d": {
+    "analysis_id": "21f12358-8cef-45e3-b089-a721d7e7920d",
+    "content_type": "text",
+    "content": "Vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 9.961223125457764,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'Vaccine contains microchips', 'entities': [], 'claim_type': ['medical', 'scientific'], 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"Vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": [\\n    \"medical\",\\n    \"scientific\"\\n  ],\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null,
+      "educational": {
+        "status": "success",
+        "misinformation_analysis": {
+          "Logical breakdown": "- Vaccines are developed to build immunity against diseases.  They contain weakened or inactive parts of a virus or bacteria, or genetic material that instructs our cells to produce an immune response.  Microchips are electronic components; they are far too complex and large to be injected via a standard needle and would require entirely different manufacturing and injection processes.  The claim ignores basic biology and engineering principles.\n- This misinformation spreads through social media platforms like WhatsApp, Facebook, and YouTube.  It often appears as forwarded messages, posts on dubious websites, and manipulated videos showing purported evidence (often blurry or out of context).  The lack of scientific literacy and trust in official sources makes it easy to spread.",
+          "Spread mechanisms": "- WhatsApp forwards:  The claim is often shared in personal chats and group discussions, making it difficult to track and counter.\n- Fake news websites/blogs:  Websites with misleading headlines and fabricated articles spread the claim to a wider audience.\n- Manipulated videos:  Videos are edited to create a false impression of microchips being injected."
+        },
+        "indian_context": {
+          "Indian institutions": "- The ICMR (Indian Council of Medical Research) and CDSCO (Central Drugs Standard Control Organisation) rigorously test and approve vaccines in India, ensuring safety and efficacy.  They have clearly stated that no vaccines contain microchips.\n- The PIB (Press Information Bureau) regularly debunks such misinformation and provides accurate information on government health initiatives.  They have issued statements clarifying the safety and composition of Indian vaccines.\n- The government's efforts to promote vaccination are undermined by such false claims, hindering the national health goals.",
+          "Simple explanation": "- \u0938\u094b\u091a\u093f\u090f, \u090f\u0915 \u091b\u094b\u091f\u093e \u0938\u093e \u091f\u0940\u0915\u093e, \u0914\u0930 \u0909\u0938\u092e\u0947\u0902 \u090f\u0915 \u092a\u0942\u0930\u093e \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a?  \u092f\u0939 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915 \u0930\u0942\u092a \u0938\u0947 \u0905\u0938\u0902\u092d\u0935 \u0939\u0948!  \u091f\u0940\u0915\u0947 \u092c\u0940\u092e\u093e\u0930\u093f\u092f\u094b\u0902 \u0938\u0947 \u092c\u091a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092c\u0928\u093e\u090f \u091c\u093e\u0924\u0947 \u0939\u0948\u0902, \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a\u094d\u0938 \u0928\u0939\u0940\u0902 \u0921\u093e\u0932\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f\u0964 (Imagine, a small vaccine, and a whole microchip inside? It's scientifically impossible! Vaccines are made to protect against diseases, not to insert microchips.)\n- Indian law protects citizens from harm caused by such misinformation.  Spreading false information about vaccines can lead to legal consequences."
+        },
+        "pattern_recognition": {
+          "Fear language": "- The claim uses fear-mongering tactics, playing on anxieties about government control and technological advancements.  Look for phrases like 'they don't want you to know,' 'secret agenda,' or 'hidden truth.'",
+          "Source checklist": "- **Who is the source?** Is it a reputable news organization, a government agency (like PIB), or an anonymous WhatsApp forward?  Be wary of unverified sources.\n- **Is the information emotionally manipulative?** Does it appeal to your fears or anger rather than presenting facts and evidence?\n- **Does it lack scientific evidence?** Does it rely on anecdotal evidence or conspiracy theories instead of scientific studies?",
+          "Indian context red flags": "- Claims that specifically target Indian institutions or cultural beliefs should be treated with extra skepticism.  Be wary of claims that link vaccines to specific religious or caste groups."
+        },
+        "real_story": {
+          "Evidence-based truth": "- Vaccines contain antigens (weakened or inactive parts of a virus or bacteria) or genetic material (mRNA or DNA) that triggers an immune response.  Their composition is publicly available and verified by regulatory bodies like the ICMR and CDSCO.\n- Numerous scientific studies and global health organizations (WHO) confirm the safety and efficacy of vaccines.  There is no credible evidence to support the claim that vaccines contain microchips.",
+          "Historical context": "- The spread of misinformation about vaccines has led to vaccine hesitancy and decreased vaccination rates globally, including in India.  This has resulted in outbreaks of preventable diseases.  Past instances of WhatsApp forwards leading to violence (lynchings) highlight the dangers of unchecked misinformation.\n- During the COVID-19 pandemic, similar false claims about vaccines circulated widely, causing significant public health challenges.",
+          "Balanced perspective": "- While some individuals may have concerns about vaccines, these concerns should be addressed through evidence-based discussions and not through the spread of false and harmful claims.  It's crucial to rely on credible sources and consult with healthcare professionals for accurate information."
+        },
+        "raw_response": "```json\n{\n  \"misinformation_analysis\": {\n    \"Logical breakdown\": \"- Vaccines are developed to build immunity against diseases.  They contain weakened or inactive parts of a virus or bacteria, or genetic material that instructs our cells to produce an immune response.  Microchips are electronic components; they are far too complex and large to be injected via a standard needle and would require entirely different manufacturing and injection processes.  The claim ignores basic biology and engineering principles.\\n- This misinformation spreads through social media platforms like WhatsApp, Facebook, and YouTube.  It often appears as forwarded messages, posts on dubious websites, and manipulated videos showing purported evidence (often blurry or out of context).  The lack of scientific literacy and trust in official sources makes it easy to spread.\",\n    \"Spread mechanisms\": \"- WhatsApp forwards:  The claim is often shared in personal chats and group discussions, making it difficult to track and counter.\\n- Fake news websites/blogs:  Websites with misleading headlines and fabricated articles spread the claim to a wider audience.\\n- Manipulated videos:  Videos are edited to create a false impression of microchips being injected.\"\n  },\n  \"indian_context\": {\n    \"Indian institutions\": \"- The ICMR (Indian Council of Medical Research) and CDSCO (Central Drugs Standard Control Organisation) rigorously test and approve vaccines in India, ensuring safety and efficacy.  They have clearly stated that no vaccines contain microchips.\\n- The PIB (Press Information Bureau) regularly debunks such misinformation and provides accurate information on government health initiatives.  They have issued statements clarifying the safety and composition of Indian vaccines.\\n- The government's efforts to promote vaccination are undermined by such false claims, hindering the national health goals.\",\n    \"Simple explanation\": \"- \u0938\u094b\u091a\u093f\u090f, \u090f\u0915 \u091b\u094b\u091f\u093e \u0938\u093e \u091f\u0940\u0915\u093e, \u0914\u0930 \u0909\u0938\u092e\u0947\u0902 \u090f\u0915 \u092a\u0942\u0930\u093e \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a?  \u092f\u0939 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915 \u0930\u0942\u092a \u0938\u0947 \u0905\u0938\u0902\u092d\u0935 \u0939\u0948!  \u091f\u0940\u0915\u0947 \u092c\u0940\u092e\u093e\u0930\u093f\u092f\u094b\u0902 \u0938\u0947 \u092c\u091a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092c\u0928\u093e\u090f \u091c\u093e\u0924\u0947 \u0939\u0948\u0902, \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a\u094d\u0938 \u0928\u0939\u0940\u0902 \u0921\u093e\u0932\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f\u0964 (Imagine, a small vaccine, and a whole microchip inside? It's scientifically impossible! Vaccines are made to protect against diseases, not to insert microchips.)\\n- Indian law protects citizens from harm caused by such misinformation.  Spreading false information about vaccines can lead to legal consequences.\"\n  },\n  \"pattern_recognition\": {\n    \"Fear language\": \"- The claim uses fear-mongering tactics, playing on anxieties about government control and technological advancements.  Look for phrases like 'they don't want you to know,' 'secret agenda,' or 'hidden truth.'\",\n    \"Source checklist\": \"- **Who is the source?** Is it a reputable news organization, a government agency (like PIB), or an anonymous WhatsApp forward?  Be wary of unverified sources.\\n- **Is the information emotionally manipulative?** Does it appeal to your fears or anger rather than presenting facts and evidence?\\n- **Does it lack scientific evidence?** Does it rely on anecdotal evidence or conspiracy theories instead of scientific studies?\",\n    \"Indian context red flags\": \"- Claims that specifically target Indian institutions or cultural beliefs should be treated with extra skepticism.  Be wary of claims that link vaccines to specific religious or caste groups.\"\n  },\n  \"real_story\": {\n    \"Evidence-based truth\": \"- Vaccines contain antigens (weakened or inactive parts of a virus or bacteria) or genetic material (mRNA or DNA) that triggers an immune response.  Their composition is publicly available and verified by regulatory bodies like the ICMR and CDSCO.\\n- Numerous scientific studies and global health organizations (WHO) confirm the safety and efficacy of vaccines.  There is no credible evidence to support the claim that vaccines contain microchips.\",\n    \"Historical context\": \"- The spread of misinformation about vaccines has led to vaccine hesitancy and decreased vaccination rates globally, including in India.  This has resulted in outbreaks of preventable diseases.  Past instances of WhatsApp forwards leading to violence (lynchings) highlight the dangers of unchecked misinformation.\\n- During the COVID-19 pandemic, similar false claims about vaccines circulated widely, causing significant public health challenges.\",\n    \"Balanced perspective\": \"- While some individuals may have concerns about vaccines, these concerns should be addressed through evidence-based discussions and not through the spread of false and harmful claims.  It's crucial to rely on credible sources and consult with healthcare professionals for accurate information.\"\n  }\n}\n```\n"
+      }
+    },
+    "timestamp": "2025-09-16T14:22:35.723798"
+  },
+  "3d5e1bbe-c74f-4cc9-b040-3143bc6fc0be": {
+    "analysis_id": "3d5e1bbe-c74f-4cc9-b040-3143bc6fc0be",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 13.872032403945923,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'COVID vaccine contains microchips', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null,
+      "educational": {
+        "status": "success",
+        "misinformation_analysis": {
+          "Logical breakdown": "- **Biological impossibility:**  Human bodies are incredibly complex. Injecting a microchip, which is a sophisticated electronic device, requires specialized equipment and procedures far beyond the capabilities of a standard vaccine injection.  It's like saying you can fit an entire computer inside a sugar cube.\n- **Scientific consensus:**  Leading medical and scientific organizations worldwide, including the ICMR (Indian Council of Medical Research) and WHO (World Health Organization), have explicitly debunked this claim. There is no scientific evidence whatsoever supporting the presence of microchips in COVID-19 vaccines.\n- **Manufacturing and logistics:** The sheer scale of vaccine production and distribution globally makes the secret insertion of microchips practically impossible.  Imagine trying to secretly add microchips to billions of vaccine doses without anyone noticing \u2013 it's logistically absurd.\n- **Spread:** This misinformation spreads primarily through social media platforms like WhatsApp, Facebook, and YouTube. It often appears as forwarded messages, manipulated videos, and posts on unreliable websites.",
+          "How it spreads": "- **WhatsApp forwards:**  The claim is frequently shared as a forwarded message, often with alarming images and videos.\n- **Social media posts:**  Fake news websites and social media accounts deliberately spread this false information to gain attention or promote a specific agenda.\n- **Manipulated videos:**  Videos are often edited to create a false impression of microchips being found in vaccines."
+        },
+        "indian_context": {
+          "Reference Indian institutions": "- The ICMR (Indian Council of Medical Research) has consistently stated that COVID-19 vaccines do not contain microchips.  They are the leading authority on medical research in India.\n- The PIB (Press Information Bureau), the government's official source of information, has also debunked this claim.\n- The CDSCO (Central Drugs Standard Control Organisation) regulates and approves vaccines in India. They would have detected such a significant addition to the vaccine composition.\n-  Spreading such misinformation can have legal consequences under Indian law, as it can incite panic and distrust in the government's efforts to control the pandemic.",
+          "Simple English + Hindi analogies": "- \u0938\u094b\u091a\u093f\u090f, \u0915\u094d\u092f\u093e \u0906\u092a \u090f\u0915 \u091b\u094b\u091f\u0947 \u0938\u0947 \u0907\u0902\u091c\u0947\u0915\u094d\u0936\u0928 \u092e\u0947\u0902 \u090f\u0915 \u092a\u0942\u0930\u093e \u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930 \u091a\u093f\u092a \u0921\u093e\u0932 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902?  \u092f\u0939 \u0905\u0938\u0902\u092d\u0935 \u0939\u0948! (Imagine, can you fit a whole computer chip into a small injection? It's impossible!)\n-  \u091c\u0948\u0938\u0947 \u091b\u094b\u091f\u0947 \u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u094b \u0921\u0930\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091d\u0942\u0920\u0940 \u0915\u0939\u093e\u0928\u093f\u092f\u093e\u0901 \u0938\u0941\u0928\u093e\u0908 \u091c\u093e\u0924\u0940 \u0939\u0948\u0902, \u0935\u0948\u0938\u0947 \u0939\u0940 \u092f\u0939 \u092d\u0940 \u090f\u0915 \u091d\u0942\u0920\u0940 \u0915\u0939\u093e\u0928\u0940 \u0939\u0948\u0964 (Just like false stories are told to scare young children, this is also a false story.)\n-  \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0914\u0930 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915\u094b\u0902 \u0928\u0947 \u0907\u0938 \u0926\u093e\u0935\u0947 \u0915\u094b \u0916\u093e\u0930\u093f\u091c \u0915\u0930 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 (The Indian government and scientists have rejected this claim.)"
+        },
+        "pattern_recognition": {
+          "Fear language": "- The claim uses fear-mongering tactics, suggesting a secret government conspiracy to control the population through vaccines.\n-  It often uses phrases like \"they don't want you to know\" to create suspicion and distrust.",
+          "Checklist": "- **Who is the source?** Is it a verified news source, a government agency (like PIB), or an anonymous WhatsApp forward?\n- **Is the information emotionally manipulative?** Does it try to trigger fear, anger, or outrage?\n- **Does it make extraordinary claims without credible evidence?**  Claims about microchips in vaccines require strong scientific evidence, not just anecdotal stories or manipulated videos.",
+          "Red flags specific to Indian context": "- Be wary of messages shared in WhatsApp groups, especially those with inflammatory language or conspiracy theories.\n- Check the authenticity of the source before sharing any information related to health or government policies.  Look for official government websites (.gov.in) and reputable news sources."
+        },
+        "real_story": {
+          "Evidence-based truth with Indian sources": "- COVID-19 vaccines are developed using mRNA technology or inactivated viruses.  These technologies are well-established and have been used for other vaccines for years.  The ICMR and CDSCO have rigorous testing and approval processes for all vaccines used in India.\n-  The composition of vaccines is publicly available and can be verified through official sources like the CDSCO website.",
+          "Historical context": "- The spread of misinformation has led to vaccine hesitancy and even violence in the past.  The COVID-19 pandemic saw several instances of WhatsApp forwards causing panic and unrest.  False information about vaccines can lead to serious health consequences for individuals and society as a whole.\n-  Past instances of misinformation campaigns in India, such as those surrounding COVID-19 treatments and election results, highlight the importance of verifying information from reliable sources.",
+          "Balanced perspective": "- While some individuals may have concerns about vaccines, it's crucial to rely on scientific evidence and official sources for information.  The benefits of vaccination far outweigh the risks, as proven by the significant reduction in COVID-19 cases and deaths in vaccinated populations."
+        },
+        "raw_response": "```json\n{\n  \"misinformation_analysis\": {\n    \"Logical breakdown\": \"- **Biological impossibility:**  Human bodies are incredibly complex. Injecting a microchip, which is a sophisticated electronic device, requires specialized equipment and procedures far beyond the capabilities of a standard vaccine injection.  It's like saying you can fit an entire computer inside a sugar cube.\\n- **Scientific consensus:**  Leading medical and scientific organizations worldwide, including the ICMR (Indian Council of Medical Research) and WHO (World Health Organization), have explicitly debunked this claim. There is no scientific evidence whatsoever supporting the presence of microchips in COVID-19 vaccines.\\n- **Manufacturing and logistics:** The sheer scale of vaccine production and distribution globally makes the secret insertion of microchips practically impossible.  Imagine trying to secretly add microchips to billions of vaccine doses without anyone noticing \u2013 it's logistically absurd.\\n- **Spread:** This misinformation spreads primarily through social media platforms like WhatsApp, Facebook, and YouTube. It often appears as forwarded messages, manipulated videos, and posts on unreliable websites.\",\n    \"How it spreads\": \"- **WhatsApp forwards:**  The claim is frequently shared as a forwarded message, often with alarming images and videos.\\n- **Social media posts:**  Fake news websites and social media accounts deliberately spread this false information to gain attention or promote a specific agenda.\\n- **Manipulated videos:**  Videos are often edited to create a false impression of microchips being found in vaccines.\"\n  },\n  \"indian_context\": {\n    \"Reference Indian institutions\": \"- The ICMR (Indian Council of Medical Research) has consistently stated that COVID-19 vaccines do not contain microchips.  They are the leading authority on medical research in India.\\n- The PIB (Press Information Bureau), the government's official source of information, has also debunked this claim.\\n- The CDSCO (Central Drugs Standard Control Organisation) regulates and approves vaccines in India. They would have detected such a significant addition to the vaccine composition.\\n-  Spreading such misinformation can have legal consequences under Indian law, as it can incite panic and distrust in the government's efforts to control the pandemic.\",\n    \"Simple English + Hindi analogies\": \"- \u0938\u094b\u091a\u093f\u090f, \u0915\u094d\u092f\u093e \u0906\u092a \u090f\u0915 \u091b\u094b\u091f\u0947 \u0938\u0947 \u0907\u0902\u091c\u0947\u0915\u094d\u0936\u0928 \u092e\u0947\u0902 \u090f\u0915 \u092a\u0942\u0930\u093e \u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930 \u091a\u093f\u092a \u0921\u093e\u0932 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902?  \u092f\u0939 \u0905\u0938\u0902\u092d\u0935 \u0939\u0948! (Imagine, can you fit a whole computer chip into a small injection? It's impossible!)\\n-  \u091c\u0948\u0938\u0947 \u091b\u094b\u091f\u0947 \u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u094b \u0921\u0930\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091d\u0942\u0920\u0940 \u0915\u0939\u093e\u0928\u093f\u092f\u093e\u0901 \u0938\u0941\u0928\u093e\u0908 \u091c\u093e\u0924\u0940 \u0939\u0948\u0902, \u0935\u0948\u0938\u0947 \u0939\u0940 \u092f\u0939 \u092d\u0940 \u090f\u0915 \u091d\u0942\u0920\u0940 \u0915\u0939\u093e\u0928\u0940 \u0939\u0948\u0964 (Just like false stories are told to scare young children, this is also a false story.)\\n-  \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0914\u0930 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915\u094b\u0902 \u0928\u0947 \u0907\u0938 \u0926\u093e\u0935\u0947 \u0915\u094b \u0916\u093e\u0930\u093f\u091c \u0915\u0930 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 (The Indian government and scientists have rejected this claim.)\"\n  },\n  \"pattern_recognition\": {\n    \"Fear language\": \"- The claim uses fear-mongering tactics, suggesting a secret government conspiracy to control the population through vaccines.\\n-  It often uses phrases like \\\"they don't want you to know\\\" to create suspicion and distrust.\",\n    \"Checklist\": \"- **Who is the source?** Is it a verified news source, a government agency (like PIB), or an anonymous WhatsApp forward?\\n- **Is the information emotionally manipulative?** Does it try to trigger fear, anger, or outrage?\\n- **Does it make extraordinary claims without credible evidence?**  Claims about microchips in vaccines require strong scientific evidence, not just anecdotal stories or manipulated videos.\",\n    \"Red flags specific to Indian context\": \"- Be wary of messages shared in WhatsApp groups, especially those with inflammatory language or conspiracy theories.\\n- Check the authenticity of the source before sharing any information related to health or government policies.  Look for official government websites (.gov.in) and reputable news sources.\"\n  },\n  \"real_story\": {\n    \"Evidence-based truth with Indian sources\": \"- COVID-19 vaccines are developed using mRNA technology or inactivated viruses.  These technologies are well-established and have been used for other vaccines for years.  The ICMR and CDSCO have rigorous testing and approval processes for all vaccines used in India.\\n-  The composition of vaccines is publicly available and can be verified through official sources like the CDSCO website.\",\n    \"Historical context\": \"- The spread of misinformation has led to vaccine hesitancy and even violence in the past.  The COVID-19 pandemic saw several instances of WhatsApp forwards causing panic and unrest.  False information about vaccines can lead to serious health consequences for individuals and society as a whole.\\n-  Past instances of misinformation campaigns in India, such as those surrounding COVID-19 treatments and election results, highlight the importance of verifying information from reliable sources.\",\n    \"Balanced perspective\": \"- While some individuals may have concerns about vaccines, it's crucial to rely on scientific evidence and official sources for information.  The benefits of vaccination far outweigh the risks, as proven by the significant reduction in COVID-19 cases and deaths in vaccinated populations.\"\n  }\n}\n```\n"
+      }
+    },
+    "timestamp": "2025-09-16T14:44:18.684989"
+  },
+  "a9f814be-4f8e-4a53-ba84-0a6409116851": {
+    "analysis_id": "a9f814be-4f8e-4a53-ba84-0a6409116851",
+    "content_type": "text",
+    "content": "COVID vaccine contains microchips",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 12.255828380584717,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'COVID vaccine contains microchips', 'entities': [], 'claim_type': 'medical', 'confidence': 0.5, 'raw_response': '```json\\n{\\n  \"normalized_claims\": [\\n    \"COVID-19 vaccines contain microchips.\"\\n  ],\\n  \"key_entities\": [\\n    \"COVID-19 vaccines\",\\n    \"microchips\"\\n  ],\\n  \"claim_type\": \"medical\",\\n  \"confidence_level\": 1.0\\n}\\n```\\n'}",
+      "factcheck_results": [],
+      "vision_analysis": null,
+      "educational": {
+        "status": "success",
+        "misinformation_analysis": {
+          "Logical breakdown": "- **Biological impossibility:**  Human bodies are complex. Injecting a microchip, even a tiny one, requires sophisticated technology far beyond current vaccine production methods.  It's like saying you can fit an entire mango into a small pea. \n- **Scientific consensus:**  Leading medical organizations worldwide, including India's ICMR (Indian Council of Medical Research), have debunked this claim.  There's no scientific evidence supporting the presence of microchips in COVID-19 vaccines. \n- **Manufacturing limitations:** Vaccine production is a highly regulated process.  Introducing microchips would require major changes, which would be easily detectable and widely reported.  It's like trying to secretly add a large brick to a perfectly baked cake - it wouldn't go unnoticed. \n- **Spread:** This misinformation spreads through social media, especially WhatsApp forwards, and unverified websites.  Manipulated videos and images often accompany these claims, making them seem more convincing.  Think of it as a game of Chinese whispers, where the original message gets distorted with each retelling.",
+          "Spread": "- WhatsApp forwards:  The claim is often shared in family and community groups, making it seem trustworthy. \n- Fake news websites:  Websites with misleading names or designs spread the claim, often using sensational headlines. \n- Manipulated videos:  Videos showing needles or injections are edited to falsely suggest microchips are being injected."
+        },
+        "indian_context": {
+          "Reference Indian institutions": "- The ICMR (Indian Council of Medical Research) has repeatedly stated that COVID-19 vaccines do not contain microchips.  \n- The PIB (Press Information Bureau), the government's official source of information, has also debunked this claim. \n-  The CDSCO (Central Drugs Standard Control Organisation) regulates vaccine safety and efficacy in India; they would have detected such a significant addition to the vaccine composition. \n- The Election Commission of India is not directly involved, but the spread of such misinformation can impact public health and potentially influence elections if it leads to vaccine hesitancy.",
+          "Simple English + Hindi analogies": "-  \u0938\u094b\u091a\u093f\u090f, \u0905\u0917\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u092e\u0947\u0902 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a \u0939\u094b\u0924\u0940, \u0924\u094b \u0935\u094b \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u0940?  (Imagine, if the vaccine had a microchip, how would it work?)  It's impossible! \n-  \u092f\u0939 \u090f\u0915 \u0905\u092b\u0935\u093e\u0939 \u0939\u0948, \u091c\u0948\u0938\u0947 \u0915\u0939\u093e\u0928\u0940 \u092e\u0947\u0902  '\u092d\u0942\u0924' \u0915\u0940 \u0915\u0939\u093e\u0928\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948\u0964 (This is a rumour, like a ghost story in a tale.)  It's not based on reality. \n-  \u0938\u0930\u0915\u093e\u0930 \u0914\u0930 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915\u094b\u0902 \u0928\u0947 \u0938\u093e\u092b \u0915\u0939\u093e \u0939\u0948 \u0915\u093f \u092f\u0939 \u0917\u0932\u0924 \u0939\u0948\u0964 (The government and scientists have clearly said this is wrong.) Trust credible sources."
+        },
+        "pattern_recognition": {
+          "Fear language": "- Claims using fear-mongering tactics:  'They don't want you to know...', 'Secret government conspiracy...', 'Hidden dangers...'. \n- Sensational headlines:  'Shocking Truth Revealed!', 'You Won't Believe This!', 'Doctors Hiding the Truth!'. \n- Emotional appeals:  Playing on anxieties about government control, health, or technology.",
+          "Checklist": "- **Who is the source?** Is it a known and trusted news outlet, government agency (like PIB), or a random WhatsApp forward? \n- **Is the information emotionally manipulative?** Does it try to scare you or make you angry? \n- **Does the claim seem too good (or too bad) to be true?**  Extraordinary claims require extraordinary evidence.",
+          "Red flags specific to Indian context": "- Messages in Hindi or other Indian languages that sound overly dramatic or use strong emotional language. \n-  Claims linking vaccines to specific political parties or ideologies. \n-  Use of religious or caste-based appeals to spread misinformation."
+        },
+        "real_story": {
+          "Evidence-based truth with Indian sources": "-  The ICMR and CDSCO have rigorous testing and approval processes for all vaccines used in India.  Any significant alteration, like adding microchips, would be impossible to hide. \n-  The PIB regularly publishes fact-checks to counter misinformation.  You can find these on their website. \n-  Reputable Indian news organizations have reported on the debunking of this claim.",
+          "Historical context": "-  The spread of misinformation has led to vaccine hesitancy and decreased vaccination rates in India, impacting public health. \n-  Past instances of WhatsApp forwards leading to violence and lynchings highlight the dangers of unverified information. \n-  During the COVID-19 pandemic, numerous scams related to vaccines and treatments emerged, exploiting people's fears and anxieties.",
+          "Balanced perspective": "- While some individuals may have genuine concerns about vaccines, the claim about microchips is demonstrably false and lacks any scientific basis.  It's crucial to rely on credible sources and critical thinking to avoid falling prey to misinformation."
+        },
+        "raw_response": "```json\n{\n  \"misinformation_analysis\": {\n    \"Logical breakdown\": \"- **Biological impossibility:**  Human bodies are complex. Injecting a microchip, even a tiny one, requires sophisticated technology far beyond current vaccine production methods.  It's like saying you can fit an entire mango into a small pea. \\n- **Scientific consensus:**  Leading medical organizations worldwide, including India's ICMR (Indian Council of Medical Research), have debunked this claim.  There's no scientific evidence supporting the presence of microchips in COVID-19 vaccines. \\n- **Manufacturing limitations:** Vaccine production is a highly regulated process.  Introducing microchips would require major changes, which would be easily detectable and widely reported.  It's like trying to secretly add a large brick to a perfectly baked cake - it wouldn't go unnoticed. \\n- **Spread:** This misinformation spreads through social media, especially WhatsApp forwards, and unverified websites.  Manipulated videos and images often accompany these claims, making them seem more convincing.  Think of it as a game of Chinese whispers, where the original message gets distorted with each retelling.\",\n    \"Spread\": \"- WhatsApp forwards:  The claim is often shared in family and community groups, making it seem trustworthy. \\n- Fake news websites:  Websites with misleading names or designs spread the claim, often using sensational headlines. \\n- Manipulated videos:  Videos showing needles or injections are edited to falsely suggest microchips are being injected.\"\n  },\n  \"indian_context\": {\n    \"Reference Indian institutions\": \"- The ICMR (Indian Council of Medical Research) has repeatedly stated that COVID-19 vaccines do not contain microchips.  \\n- The PIB (Press Information Bureau), the government's official source of information, has also debunked this claim. \\n-  The CDSCO (Central Drugs Standard Control Organisation) regulates vaccine safety and efficacy in India; they would have detected such a significant addition to the vaccine composition. \\n- The Election Commission of India is not directly involved, but the spread of such misinformation can impact public health and potentially influence elections if it leads to vaccine hesitancy.\",\n    \"Simple English + Hindi analogies\": \"-  \u0938\u094b\u091a\u093f\u090f, \u0905\u0917\u0930 \u0935\u0948\u0915\u094d\u0938\u0940\u0928 \u092e\u0947\u0902 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u091a\u093f\u092a \u0939\u094b\u0924\u0940, \u0924\u094b \u0935\u094b \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u0940?  (Imagine, if the vaccine had a microchip, how would it work?)  It's impossible! \\n-  \u092f\u0939 \u090f\u0915 \u0905\u092b\u0935\u093e\u0939 \u0939\u0948, \u091c\u0948\u0938\u0947 \u0915\u0939\u093e\u0928\u0940 \u092e\u0947\u0902  '\u092d\u0942\u0924' \u0915\u0940 \u0915\u0939\u093e\u0928\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948\u0964 (This is a rumour, like a ghost story in a tale.)  It's not based on reality. \\n-  \u0938\u0930\u0915\u093e\u0930 \u0914\u0930 \u0935\u0948\u091c\u094d\u091e\u093e\u0928\u093f\u0915\u094b\u0902 \u0928\u0947 \u0938\u093e\u092b \u0915\u0939\u093e \u0939\u0948 \u0915\u093f \u092f\u0939 \u0917\u0932\u0924 \u0939\u0948\u0964 (The government and scientists have clearly said this is wrong.) Trust credible sources.\"\n  },\n  \"pattern_recognition\": {\n    \"Fear language\": \"- Claims using fear-mongering tactics:  'They don't want you to know...', 'Secret government conspiracy...', 'Hidden dangers...'. \\n- Sensational headlines:  'Shocking Truth Revealed!', 'You Won't Believe This!', 'Doctors Hiding the Truth!'. \\n- Emotional appeals:  Playing on anxieties about government control, health, or technology.\",\n    \"Checklist\": \"- **Who is the source?** Is it a known and trusted news outlet, government agency (like PIB), or a random WhatsApp forward? \\n- **Is the information emotionally manipulative?** Does it try to scare you or make you angry? \\n- **Does the claim seem too good (or too bad) to be true?**  Extraordinary claims require extraordinary evidence.\",\n    \"Red flags specific to Indian context\": \"- Messages in Hindi or other Indian languages that sound overly dramatic or use strong emotional language. \\n-  Claims linking vaccines to specific political parties or ideologies. \\n-  Use of religious or caste-based appeals to spread misinformation.\"\n  },\n  \"real_story\": {\n    \"Evidence-based truth with Indian sources\": \"-  The ICMR and CDSCO have rigorous testing and approval processes for all vaccines used in India.  Any significant alteration, like adding microchips, would be impossible to hide. \\n-  The PIB regularly publishes fact-checks to counter misinformation.  You can find these on their website. \\n-  Reputable Indian news organizations have reported on the debunking of this claim.\",\n    \"Historical context\": \"-  The spread of misinformation has led to vaccine hesitancy and decreased vaccination rates in India, impacting public health. \\n-  Past instances of WhatsApp forwards leading to violence and lynchings highlight the dangers of unverified information. \\n-  During the COVID-19 pandemic, numerous scams related to vaccines and treatments emerged, exploiting people's fears and anxieties.\",\n    \"Balanced perspective\": \"- While some individuals may have genuine concerns about vaccines, the claim about microchips is demonstrably false and lacks any scientific basis.  It's crucial to rely on credible sources and critical thinking to avoid falling prey to misinformation.\"\n  }\n}\n```\n"
+      }
+    },
+    "timestamp": "2025-09-16T14:49:04.512979"
+  },
+  "3c180932-3b2e-490a-8e75-0c5974677113": {
+    "analysis_id": "3c180932-3b2e-490a-8e75-0c5974677113",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:26:01.744246"
+  },
+  "ee01dab5-ba0d-4f28-ae78-979534c26342": {
+    "analysis_id": "ee01dab5-ba0d-4f28-ae78-979534c26342",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:30:01.453776"
+  },
+  "fa20db70-893c-4554-bb63-9b9d09013291": {
+    "analysis_id": "fa20db70-893c-4554-bb63-9b9d09013291",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:31:19.444984"
+  },
+  "3c32b1fe-4827-48e6-a1f0-2c0580e91941": {
+    "analysis_id": "3c32b1fe-4827-48e6-a1f0-2c0580e91941",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:31:40.952962"
+  },
+  "af7bcea1-ac15-4402-b720-6906e35aedbc": {
+    "analysis_id": "af7bcea1-ac15-4402-b720-6906e35aedbc",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:31:53.336535"
+  },
+  "523227bf-ef2e-4f83-8118-39165bd94b33": {
+    "analysis_id": "523227bf-ef2e-4f83-8118-39165bd94b33",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:32:23.595266"
+  },
+  "e1a51be1-fb63-44ff-b5da-2f2dd1804167": {
+    "analysis_id": "e1a51be1-fb63-44ff-b5da-2f2dd1804167",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:40:49.348662"
+  },
+  "afa7a7e8-32c5-44c2-9f5e-debfd78675ce": {
+    "analysis_id": "afa7a7e8-32c5-44c2-9f5e-debfd78675ce",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:41:05.324147"
+  },
+  "a4b226ab-a047-4089-bcfe-151a808caf84": {
+    "analysis_id": "a4b226ab-a047-4089-bcfe-151a808caf84",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T01:41:17.663712"
+  },
+  "fd33bc94-9e97-4b97-ae2f-e080d1317a3b": {
+    "analysis_id": "fd33bc94-9e97-4b97-ae2f-e080d1317a3b",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T12:34:00.284247"
+  },
+  "6da1d0e1-63e9-4994-94d9-ff86faf76595": {
+    "analysis_id": "6da1d0e1-63e9-4994-94d9-ff86faf76595",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T14:19:42.327855"
+  },
+  "9c3595b6-2a46-4c8e-8832-ae38cc8a26c6": {
+    "analysis_id": "9c3595b6-2a46-4c8e-8832-ae38cc8a26c6",
+    "content_type": "image",
+    "ocr_text": "",
+    "vision_result": {
+      "ocr_text": "",
+      "labels": [],
+      "safe_search": {
+        "adult": "UNKNOWN",
+        "violence": "UNKNOWN",
+        "medical": "UNKNOWN",
+        "racy": "UNKNOWN"
+      },
+      "forensic": {
+        "file_size_bytes": 23359,
+        "file_size_kb": 22.81,
+        "hash_md5": "ba8a0f31d14f50727e91611cf4d3f753",
+        "metadata": {
+          "format": "PNG",
+          "size": "640x480",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "error": "Vision API failed: 403 This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: \"BILLING_DISABLED\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"vision.googleapis.com\"\n}\nmetadata {\n  key: \"containerInfo\"\n  value: \"577504731804\"\n}\nmetadata {\n  key: \"consumer\"\n  value: \"projects/577504731804\"\n}\n, locale: \"en-US\"\nmessage: \"This API method requires billing to be enabled. Please enable billing on project #577504731804 by visiting https://console.developers.google.com/billing/enable?project=577504731804 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.\"\n, links {\n  description: \"Google developers console billing\"\n  url: \"https://console.developers.google.com/billing/enable?project=577504731804\"\n}\n]"
+    },
+    "language": "en",
+    "timestamp": "2025-09-17T14:33:42.578504"
+  },
+  "00d0472f-eafd-493c-8b00-6fe56f507170": {
+    "analysis_id": "00d0472f-eafd-493c-8b00-6fe56f507170",
+    "content_type": "text",
+    "content": "This is a test message",
+    "language": "en",
+    "user_id": null,
+    "verdict": "inconclusive",
+    "confidence_score": 0.5,
+    "summary": "Analysis completed",
+    "processing_time": 0.0007202625274658203,
+    "detailed_analysis": {
+      "evidence": [
+        "Analysis completed"
+      ],
+      "sources": [
+        "Google Gemini AI",
+        "Google Perspective API"
+      ],
+      "gemini_analysis": "{'status': 'success', 'normalized_claim': 'This is a test message', 'entities': [], 'claim_type': 'unknown', 'confidence': 0.5, 'mock': True}",
+      "factcheck_results": [
+        {
+          "verdict": "FALSE",
+          "original_rating": "Mock: FALSE",
+          "source": "Mock Fact Checker",
+          "confidence": 0.8,
+          "summary": "Mock fact-check result"
+        }
+      ],
+      "vision_analysis": null,
+      "educational": {
+        "misinformation_analysis": "Mock educational analysis - logical breakdown needed",
+        "indian_context": "Mock Indian context - reference ICMR, PIB, RBI institutions",
+        "pattern_recognition": "Mock pattern recognition - look for fear language and forwarded messages",
+        "real_story": "Mock real story - evidence-based truth with Indian sources",
+        "mock": true
+      }
+    },
+    "timestamp": "2025-09-19T05:44:12.781267"
+  }
+}

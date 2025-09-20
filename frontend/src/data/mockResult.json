@@ -1,0 +1,71 @@
+{
+  "id": "case-123",
+  "input": "Claim: Vaccines cause infertility in young adults",
+  "domain": "Health",
+  "language": "en",
+  "verdict": {
+    "label": "❌ False",
+    "confidence": 82,
+    "breakdown": {
+      "fact_checks": 90,
+      "source_credibility": 85,
+      "model_consensus": 80,
+      "technical_feasibility": 70,
+      "cross_media": 75
+    }
+  },
+  "quick_analysis": [
+    {
+      "icon": "🎭",
+      "text": "Manipulative framing detected: the claim uses fear-based language to target parents."
+    },
+    {
+      "icon": "🌍",
+      "text": "Similar falsehoods circulated during 2019 elections in Europe and India."
+    },
+    {
+      "icon": "🧬",
+      "text": "Scientific consensus confirms no evidence linking vaccines to infertility."
+    }
+  ],
+  "simple_explanation": "This is like saying eating an apple changes your DNA. It sounds scary, but it's impossible according to science.",
+  "education_checklist": [
+    "Checked multiple credible sources",
+    "Verified scientific studies",
+    "Compared against WHO and CDC reports"
+  ],
+  "evidence": [
+    {
+      "title": "WHO Fact Sheet on Vaccine Safety",
+      "url": "https://www.who.int/vaccine-safety",
+      "note": "Confirms vaccines do not affect fertility."
+    },
+    {
+      "title": "BBC News Fact-Check",
+      "url": "https://www.bbc.com/fact-check-vaccines",
+      "note": "Debunked infertility claims spreading on WhatsApp."
+    }
+  ],
+  "deep_report": {
+    "summary": "The claim leverages fear about fertility, a recurring manipulation tactic...",
+    "sections": [
+      {
+        "heading": "Technical Analysis",
+        "content": "Biological evidence strongly contradicts any effect on fertility."
+      },
+      {
+        "heading": "Psychological Perspective",
+        "content": "Fear-based rumors spread faster in parent communities online."
+      },
+      {
+        "heading": "Geopolitical Context",
+        "content": "Similar narratives used in disinformation campaigns in Africa."
+      }
+    ]
+  },
+  "audit": {
+    "model_version": "v1.4",
+    "analysis_time": "2025-09-18T12:00:00Z",
+    "trace_id": "trace-456789"
+  }
+}
