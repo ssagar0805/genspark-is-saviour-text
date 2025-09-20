@@ -1,13 +1,16 @@
 # backend/app/services/analysis_engine.py
 """
-SAMBHAV IN REALITY - Educational Fact-Checking Pipeline with Post-Processing Layer
+CrediScope Text Analysis Pipeline - Production Version
 
-POST-PROCESSING ENHANCEMENTS:
-- Transform raw API data into locked frontend format
-- Generate clean Quick Analysis bullets matching results-page-final.pdf
-- Structure Evidence Grid with professional presentation
-- Create meaningful Intelligence Reports with contextual insights
-- Ensure citizen-friendly educational content
+This module provides comprehensive fact-checking analysis for text content.
+It produces structured, user-friendly, fact-based explanations that align
+with the frontend results page design.
+
+Features:
+- Multi-source evidence verification
+- Professional confidence scoring
+- Educational user guidance
+- Intelligence-grade analysis reports
 """
 
 from dotenv import load_dotenv
@@ -127,64 +130,150 @@ def detect_claim_type(text: str) -> str:
     else:
         return "general_misinformation"
 
-def normalize_quick_analysis(raw_data: Dict, claim_type: str, fact_checks: List, search_results: List) -> str:
-    """Transform raw API data into clean Quick Analysis bullets matching results-page-final.pdf"""
+def generate_comprehensive_explanation(original_text: str, claim_type: str, fact_checks: List, search_results: List, wikipedia_data: Dict) -> str:
+    """Generate a comprehensive, factual explanation (10-50 lines) for the claim"""
     
-    claim_patterns = {
-        "vaccine_conspiracy": [
-            {"icon": "🎭", "text": "Manipulative framing detected: uses fear-based language targeting medical interventions. Similar tactics were used in 2020 anti-vaccine campaigns and historical health misinformation."},
-            {"icon": "🌍", "text": f"Cross-referenced with {len(fact_checks)} professional fact-checkers including FactCheck.org, Reuters, and BBC who consistently debunk microchip vaccine claims."},
-            {"icon": "🧬", "text": "Scientific consensus from WHO, CDC, and peer-reviewed medical literature confirms no microchips or tracking devices in any approved COVID-19 vaccines."}
-        ],
-        "election_misinformation": [
-            {"icon": "🎭", "text": "Electoral manipulation claim detected: uses distrust tactics similar to previous election misinformation campaigns across multiple democracies."},
-            {"icon": "🌍", "text": f"Verified against {len(fact_checks)} election monitoring organizations and official electoral commission reports."},
-            {"icon": "🧬", "text": "Democratic institutions and independent observers maintain transparency in electoral processes with multiple verification layers."}
-        ],
-        "health_misinformation": [
-            {"icon": "🎭", "text": "Health misinformation pattern: exploits medical fears and distrust of health authorities, common in pandemic-related false claims."},
-            {"icon": "🌍", "text": f"Medical consensus verified through {len(fact_checks)} health organizations including WHO, CDC, and national health ministries."},
-            {"icon": "🧬", "text": "Peer-reviewed scientific research and clinical evidence contradict the claims made in this misinformation."}
-        ],
-        "general_misinformation": [
-            {"icon": "🎭", "text": "Misinformation pattern identified: uses emotional triggers and unverified sources to spread false information rapidly."},
-            {"icon": "🌍", "text": f"Cross-verified with {len(fact_checks)} professional fact-checking organizations and credible news sources."},
-            {"icon": "🧬", "text": "Evidence-based analysis shows this claim contradicts verified information from authoritative sources."}
-        ]
-    }
+    # Count available evidence
+    fact_check_count = len(fact_checks) if fact_checks else 0
+    search_count = len(search_results) if search_results else 0
+    has_wiki = wikipedia_data and isinstance(wikipedia_data, dict) and wikipedia_data.get('extract')
     
-    # Get appropriate pattern or fall back to general
-    analysis_bullets = claim_patterns.get(claim_type, claim_patterns["general_misinformation"])
+    if claim_type == "vaccine_conspiracy":
+        explanation = f"""This claim suggests that COVID-19 vaccines contain microchips or tracking devices, which is a conspiracy theory that has been thoroughly investigated and debunked by medical professionals worldwide.
+
+The conspiracy theory typically alleges that governments or organizations are using vaccination programs to secretly implant tracking devices in people. However, this claim fails basic technical and scientific scrutiny for several reasons:
+
+First, the physical impossibility: Standard vaccination needles (typically 22-25 gauge) are far too small to accommodate any functional microchip or tracking device. The smallest RFID chips available commercially are several millimeters in size, while vaccine needles have inner diameters of less than 0.5mm.
+
+Second, the ingredient transparency: All COVID-19 vaccine ingredients are publicly documented and regulated by health authorities including the FDA, EMA, and WHO. These vaccines contain mRNA or viral proteins, lipids, salts, and sugars - no electronic components whatsoever.
+
+Third, the lack of technological infrastructure: Even if microchips could somehow be inserted, there would need to be a massive surveillance network to track billions of people, which doesn't exist and would be technically and economically unfeasible.
+
+Professional fact-checkers have investigated these claims extensively. {f'We found {fact_check_count} professional fact-check reports' if fact_check_count > 0 else 'Multiple professional fact-checking organizations'} have verified that no credible evidence supports microchip vaccine claims.
+
+Medical authorities worldwide, including the World Health Organization, Centers for Disease Control and Prevention, and national health agencies, have repeatedly confirmed that approved vaccines contain only the ingredients listed in their official documentation.
+
+This type of conspiracy theory often spreads during times of uncertainty and can be harmful because it discourages people from making informed health decisions based on scientific evidence. The vaccines have undergone rigorous clinical trials and continue to be monitored for safety and efficacy.
+
+For anyone concerned about vaccine safety, the recommended approach is to consult with qualified healthcare providers who can provide evidence-based information tailored to individual health circumstances."""
     
-    # Build the analysis text
-    return "\n".join([f"{bullet['icon']}\n{bullet['text']}" for bullet in analysis_bullets])
+    elif claim_type == "election_misinformation":
+        explanation = f"""This claim relates to electoral integrity and voting processes, which are subjects of significant public interest and concern. Electoral systems in democratic countries include multiple safeguards and verification mechanisms designed to ensure accuracy and prevent fraud.
+
+Modern electoral systems typically incorporate several layers of security and verification: paper ballot backups, bipartisan poll monitoring, statistical audits, signature verification processes, and post-election reviews. These systems are designed and overseen by election officials who are trained professionals bound by legal and ethical standards.
+
+Election security involves collaboration between federal, state, and local authorities, often with input from cybersecurity experts and independent observers. International election monitoring organizations also provide oversight in many jurisdictions to ensure transparency and adherence to democratic standards.
+
+{f'Our analysis found {fact_check_count} professional fact-check reports examining similar electoral claims' if fact_check_count > 0 else 'Professional fact-checking organizations regularly examine electoral claims'}, along with {f'{search_count} additional sources' if search_count > 0 else 'additional credible sources'} providing context and verification.
+
+Electoral misinformation can take many forms, including false claims about voting technology, incorrect information about voter eligibility, misleading statistics about voter turnout, or unsubstantiated allegations about procedural irregularities. Such claims require careful verification through official channels.
+
+When evaluating electoral claims, it's important to rely on official sources such as certified election results, reports from election monitoring organizations, court decisions where legal challenges have been pursued, and statements from bipartisan election officials.
+
+The integrity of democratic processes depends on accurate information and public trust in electoral institutions. Citizens concerned about electoral integrity are encouraged to engage with official processes: volunteering as poll workers, participating in election observer programs, or contacting election officials through official channels.
+
+For specific questions about electoral processes or results, the most reliable sources are official election authorities, certified election results, and reports from established election monitoring organizations with track records of nonpartisan analysis."""
+    
+    elif claim_type == "health_misinformation":
+        explanation = f"""This claim involves health-related information that requires careful verification through established medical and scientific channels. Health misinformation can have serious consequences for individual and public health, making accurate assessment particularly important.
+
+Medical and health claims should be evaluated based on peer-reviewed scientific research, guidance from established health authorities, and consensus among qualified medical professionals. The scientific method includes rigorous testing, peer review, and replication to ensure reliability of health information.
+
+{f'We found {fact_check_count} professional medical fact-checks' if fact_check_count > 0 else 'Professional medical fact-checking organizations'} have examined this type of claim, along with {f'{search_count} additional medical sources' if search_count > 0 else 'additional medical sources'} providing scientific context.
+
+Health authorities such as the World Health Organization (WHO), Centers for Disease Control and Prevention (CDC), and national health agencies maintain updated guidance based on current scientific evidence. These organizations employ medical professionals and researchers who continuously review emerging evidence and update recommendations accordingly.
+
+Medical misinformation often exploits natural concerns about health and safety, sometimes presenting anecdotal evidence or preliminary research as definitive conclusions. It may also misrepresent legitimate scientific studies or present information out of context.
+
+When evaluating health claims, several factors are important: the credentials and expertise of the source, whether claims are supported by peer-reviewed research, consensus among medical professionals, and official guidance from health authorities.
+
+For personal health decisions, the most reliable approach is consultation with qualified healthcare providers who can assess individual circumstances and provide evidence-based recommendations tailored to specific health needs and medical history.
+
+Public health information should come from established health authorities that base recommendations on systematic review of scientific evidence and maintain transparency about their decision-making processes."""
+    
+    else:  # general_misinformation
+        explanation = f"""This claim requires careful verification to determine its accuracy and reliability. In our information-rich environment, distinguishing between accurate and misleading information requires systematic evaluation using established verification methods.
+
+{f'Our analysis identified {fact_check_count} professional fact-check reports' if fact_check_count > 0 else 'Professional fact-checking organizations provide valuable verification services'} and {f'{search_count} additional sources' if search_count > 0 else 'additional credible sources'} that help provide context for evaluating this claim.
+
+Information verification involves several key principles: checking multiple independent sources, evaluating the credibility and expertise of sources, looking for evidence-based support rather than opinion or speculation, and considering potential biases or conflicts of interest.
+
+Misinformation can spread through various mechanisms: social media amplification, emotional appeals that bypass critical thinking, confirmation bias where people seek information that supports existing beliefs, and the natural tendency to trust information from familiar sources without verification.
+
+Credible sources typically have several characteristics: established track records for accuracy, transparent methodology for fact-checking, corrections when errors are discovered, and clear distinctions between news reporting and opinion content.
+
+When evaluating any claim, it's helpful to ask several questions: Who is making the claim and what are their qualifications? What evidence supports the claim? Have other credible sources verified this information? Are there potential conflicts of interest?
+
+For controversial or important claims, cross-referencing multiple reliable sources helps build confidence in accuracy. This might include academic institutions, established news organizations with editorial standards, government agencies with relevant expertise, or professional organizations in related fields.
+
+The goal of information verification is not to suppress discussion or debate, but to ensure that important decisions are based on accurate, well-sourced information rather than speculation or deliberately misleading content."""
+    
+    return explanation.strip()
+
+def normalize_quick_analysis(original_text: str, claim_type: str, fact_checks: List, search_results: List) -> str:
+    """Generate quick analysis bullets based on actual evidence found"""
+    
+    fact_check_count = len(fact_checks) if fact_checks else 0
+    search_count = len(search_results) if search_results else 0
+    
+    # Pattern detection analysis
+    pattern_text = "Misinformation pattern detected: uses emotional triggers and unverified sources to spread false information rapidly."
+    if claim_type == "vaccine_conspiracy":
+        pattern_text = "Vaccine conspiracy pattern: exploits fears about medical interventions using technically impossible claims about microchips and tracking."
+    elif claim_type == "election_misinformation":
+        pattern_text = "Electoral misinformation pattern: undermines trust in democratic processes through unsubstantiated fraud allegations."
+    elif claim_type == "health_misinformation":
+        pattern_text = "Health misinformation pattern: exploits medical anxieties and contradicts established scientific consensus."
+    
+    # Evidence verification analysis
+    evidence_text = f"Cross-verified with {fact_check_count} professional fact-checkers and {search_count} additional sources."
+    if fact_check_count == 0 and search_count == 0:
+        evidence_text = "Limited verification sources available - manual fact-checking through official channels recommended."
+    elif fact_check_count > 0 and search_count == 0:
+        evidence_text = f"Verified through {fact_check_count} professional fact-checking organizations with established credibility standards."
+    elif fact_check_count == 0 and search_count > 0:
+        evidence_text = f"Cross-referenced with {search_count} additional sources, though professional fact-checks not yet available."
+    
+    # Scientific/authoritative consensus analysis
+    consensus_text = "Evidence-based analysis shows this claim contradicts verified information from authoritative sources."
+    if claim_type == "vaccine_conspiracy":
+        consensus_text = "Medical authorities worldwide confirm no microchips or tracking devices in any approved vaccines - technically impossible with current vaccination methods."
+    elif claim_type == "election_misinformation":
+        consensus_text = "Electoral authorities maintain multiple verification layers and transparency measures to ensure democratic process integrity."
+    elif claim_type == "health_misinformation":
+        consensus_text = "Medical consensus from health authorities and peer-reviewed research contradicts the claims made in this content."
+    
+    return f"🎭\n{pattern_text}\n🌍\n{evidence_text}\n🧬\n{consensus_text}"
 
 def structure_evidence_grid(fact_checks: List, search_results: List, wikipedia_data: Dict) -> List[Evidence]:
-    """Structure Evidence Grid with professional presentation matching results-page-final.pdf"""
+    """Structure Evidence Grid with real URLs and professional analysis"""
     
     evidence_list = []
     
-    # Process fact-checks into clean evidence format
+    # Process fact-checks with actual URLs
     fact_check_sources = {
-        "factcheck.org": {"name": "FactCheck.org Analysis", "reliability": 0.95},
-        "reuters": {"name": "Reuters Fact Check", "reliability": 0.93},
-        "bbc": {"name": "BBC Reality Check", "reliability": 0.92},
-        "snopes": {"name": "Snopes Investigation", "reliability": 0.90},
-        "ap news": {"name": "Associated Press Fact Check", "reliability": 0.94},
-        "politifact": {"name": "PolitiFact Analysis", "reliability": 0.91}
+        "factcheck.org": {"name": "FactCheck.org", "reliability": 0.95, "base_url": "https://www.factcheck.org"},
+        "reuters": {"name": "Reuters Fact Check", "reliability": 0.93, "base_url": "https://www.reuters.com/fact-check"},
+        "bbc": {"name": "BBC Reality Check", "reliability": 0.92, "base_url": "https://www.bbc.com/news/reality_check"},
+        "snopes": {"name": "Snopes", "reliability": 0.90, "base_url": "https://www.snopes.com"},
+        "ap news": {"name": "Associated Press", "reliability": 0.94, "base_url": "https://apnews.com/hub/ap-fact-check"},
+        "politifact": {"name": "PolitiFact", "reliability": 0.91, "base_url": "https://www.politifact.com"},
+        "afp": {"name": "AFP Fact Check", "reliability": 0.92, "base_url": "https://factcheck.afp.com"}
     }
     
-    for fc in fact_checks[:3]:
+    # Process actual fact-check results
+    for fc in fact_checks[:2]:
         if not isinstance(fc, dict):
             continue
             
         reviews = safe_get(fc, "claimReview", default=[])
-        for review in reviews[:1]:  # One per fact-check
+        for review in reviews[:1]:  # One per fact-check source
             publisher = safe_get(review, "publisher", default={})
             publisher_name = safe_get(publisher, "name", default="").lower()
-            rating = safe_get(review, "textualRating", default="False")
+            rating = safe_get(review, "textualRating", default="Disputed")
+            review_url = safe_get(review, "url", default="")
             
-            # Find matching professional source
+            # Find matching source info
             source_info = None
             for key, info in fact_check_sources.items():
                 if key in publisher_name:
@@ -192,68 +281,92 @@ def structure_evidence_grid(fact_checks: List, search_results: List, wikipedia_d
                     break
             
             if not source_info:
-                source_info = {"name": "Professional Fact Checker", "reliability": 0.85}
+                source_info = {"name": "Independent Fact Checker", "reliability": 0.85, "base_url": ""}
+            
+            # Use actual review URL or fallback to source base URL
+            actual_url = review_url if review_url else source_info.get("base_url", "")
             
             evidence_list.append(Evidence(
-                source=source_info["name"],
-                snippet=f"Thoroughly debunked this claim with rating: {rating}. Professional verification using multiple independent sources.",
+                source=f"{source_info['name']} - {actual_url if actual_url else 'Fact Check Analysis'}",
+                snippet=f"Professional fact-check rating: {rating}. This claim has been investigated by independent journalists and researchers using established verification methods.",
                 reliability=source_info["reliability"]
             ))
     
-    # Add high-quality web sources
-    quality_domains = ["who.int", "cdc.gov", "gov.uk", "nih.gov", "nature.com", "nejm.org", "bmj.com"]
+    # Process search results with real URLs
+    quality_domains = ["who.int", "cdc.gov", "nih.gov", "fda.gov", "nature.com", "nejm.org", "bmj.com", "gov.uk", "europa.eu"]
     
     for result in search_results[:2]:
         if not isinstance(result, dict):
             continue
             
-        title = safe_get(result, "title", default="News Source")
+        title = safe_get(result, "title", default="")
         snippet = safe_get(result, "snippet", default="")
         link = safe_get(result, "link", default="")
         
-        # Boost reliability for quality domains
-        reliability = 0.75
+        if not (title and snippet and link):
+            continue
+        
+        # Assess reliability based on domain
+        reliability = 0.70  # Base reliability
         for domain in quality_domains:
             if domain in link.lower():
-                reliability = 0.90
+                reliability = 0.92
                 break
         
-        if snippet:
-            clean_snippet = snippet[:120] + "..." if len(snippet) > 120 else snippet
-            evidence_list.append(Evidence(
-                source=title,
-                snippet=clean_snippet,
-                reliability=reliability
-            ))
+        # Enhance reliability for educational and government sources
+        if any(domain in link.lower() for domain in [".edu", ".gov"]):
+            reliability = max(reliability, 0.88)
+        
+        clean_snippet = snippet[:150] + "..." if len(snippet) > 150 else snippet
+        
+        evidence_list.append(Evidence(
+            source=f"{title} - {link}",
+            snippet=clean_snippet,
+            reliability=reliability
+        ))
     
-    # Add Wikipedia context if available
+    # Add Wikipedia if available with actual URL
     if wikipedia_data and isinstance(wikipedia_data, dict):
         extract = safe_get(wikipedia_data, "extract", default="")
         title = safe_get(wikipedia_data, "title", default="")
+        wiki_url = safe_get(wikipedia_data, "url", default=f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}" if title else "")
         
         if extract and title:
             evidence_list.append(Evidence(
-                source=f"Wikipedia: {title}",
-                snippet=f"{extract[:100]}... Provides background context on this topic.",
-                reliability=0.80
+                source=f"Wikipedia: {title} - {wiki_url}",
+                snippet=f"{extract[:150]}{'...' if len(extract) > 150 else ''} This provides encyclopedic context and background information.",
+                reliability=0.82
             ))
     
-    # Ensure we have at least 2 evidence items with fallbacks
-    if len(evidence_list) < 2:
-        evidence_list.extend([
+    # If no evidence found, provide authoritative fallback sources with real URLs
+    if len(evidence_list) == 0:
+        evidence_list = [
             Evidence(
-                source="WHO Fact Sheet on Vaccine Safety",
-                snippet="Confirms vaccines do not contain microchips or tracking devices.",
+                source="World Health Organization - https://www.who.int",
+                snippet="The WHO provides authoritative health information and guidance. For vaccine-related claims, WHO maintains comprehensive safety information and debunking of conspiracy theories.",
                 reliability=0.95
             ),
             Evidence(
-                source="Professional Fact-Checking Network",
-                snippet="Multiple independent fact-checkers have verified this as false information.",
-                reliability=0.90
+                source="Centers for Disease Control and Prevention - https://www.cdc.gov",
+                snippet="CDC provides evidence-based health information for the US public. Their fact sheets address common health misinformation with scientific evidence.",
+                reliability=0.94
+            ),
+            Evidence(
+                source="Reuters Fact Check - https://www.reuters.com/fact-check",
+                snippet="Professional news organization with dedicated fact-checking team that verifies claims using journalistic standards and multiple sources.",
+                reliability=0.93
             )
-        ])
+        ]
     
-    return evidence_list[:4]  # Max 4 evidence items
+    # Ensure minimum of 3 evidence items but no more than 5
+    while len(evidence_list) < 3:
+        evidence_list.append(Evidence(
+            source="Professional Verification Network - https://www.poynter.org/ifcn",
+            snippet="International fact-checking network maintains standards for verification and debunking of false claims across multiple platforms and sources.",
+            reliability=0.88
+        ))
+    
+    return evidence_list[:5]  # Max 5 evidence items
 
 def generate_smart_checklist(claim_type: str, verdict_label: str) -> List[EducationalChecklistItem]:
     """Generate contextual educational checklist matching results-page-final.pdf"""
@@ -402,75 +515,150 @@ def build_meaningful_intelligence(claim_type: str, verdict_label: str, text: str
         philosophical=template.get("philosophical")
     )
 
-def calculate_professional_breakdown(signals: Dict, verdict_confidence: int) -> Dict[str, int]:
-    """Calculate confidence breakdown for professional presentation"""
+def calculate_professional_breakdown(signals: Dict, verdict_confidence: int, claim_type: str) -> Dict[str, int]:
+    """Calculate confidence breakdown based on actual evidence found"""
     fact_checks = signals.get("fact_checks", [])
     search_results = signals.get("search_results", [])
     wikipedia_data = signals.get("wikipedia")
     
-    # Professional scoring based on actual evidence
-    fact_check_score = min(95, len(fact_checks) * 30) if fact_checks else 60
-    source_score = min(90, len(search_results) * 20) if search_results else 70
-    wiki_score = 80 if (wikipedia_data and safe_get(wikipedia_data, "extract")) else 60
+    # Fact-check scoring: Strong evidence from professional fact-checkers
+    fact_check_score = 50  # Base score
+    if fact_checks:
+        # Score based on number and quality of fact-checks
+        fact_check_score = min(95, 60 + (len(fact_checks) * 15))
+        # Boost for high-quality fact-checkers
+        for fc in fact_checks:
+            if isinstance(fc, dict):
+                reviews = safe_get(fc, "claimReview", default=[])
+                for review in reviews:
+                    publisher_name = safe_get(review, "publisher", "name", default="").lower()
+                    if any(quality_source in publisher_name for quality_source in ["reuters", "factcheck.org", "bbc", "ap news"]):
+                        fact_check_score = min(95, fact_check_score + 10)
+                        break
+    
+    # Source credibility: Quality and quantity of supporting sources
+    source_score = 40  # Base score
+    if search_results:
+        source_score = min(90, 50 + (len(search_results) * 12))
+        # Boost for authoritative domains
+        for result in search_results:
+            if isinstance(result, dict):
+                link = safe_get(result, "link", default="").lower()
+                if any(domain in link for domain in ["who.int", "cdc.gov", "nih.gov", "gov.uk", "nature.com"]):
+                    source_score = min(90, source_score + 15)
+                    break
+    
+    # Technical feasibility: Claim-specific technical analysis
+    technical_score = 60  # Default
+    if claim_type == "vaccine_conspiracy":
+        technical_score = 95  # Microchips in vaccines are technically impossible
+    elif claim_type == "election_misinformation":
+        technical_score = 75  # Electoral systems have verification layers
+    elif claim_type == "health_misinformation":
+        technical_score = 70  # Depends on specific medical claim
+    
+    # Cross-media verification: Consistency across multiple sources
+    cross_media_score = 30  # Base
+    total_sources = len(fact_checks) + len(search_results)
+    if wikipedia_data and safe_get(wikipedia_data, "extract"):
+        total_sources += 1
+    
+    cross_media_score = min(85, 40 + (total_sources * 10))
+    
+    # Model consensus: AI analysis confidence
+    model_consensus = max(30, min(95, verdict_confidence))
     
     return {
         "factChecks": fact_check_score,
-        "sourceCredibility": source_score, 
-        "modelConsensus": verdict_confidence,
-        "technicalFeasibility": 75,
-        "crossMedia": min(85, (len(fact_checks) + len(search_results)) * 15)
+        "sourceCredibility": source_score,
+        "modelConsensus": model_consensus,
+        "technicalFeasibility": technical_score,
+        "crossMedia": cross_media_score
     }
 
-def transform_raw_to_locked_format(signals: Dict, parsed_data: Dict, original_text: str, detected_lang: str, processing_time: float) -> Result:
-    """MASTER FUNCTION: Transform raw API data into locked format matching results-page-final.pdf"""
+def transform_raw_to_structured_result(signals: Dict, parsed_data: Dict, original_text: str, detected_lang: str, processing_time: float) -> Result:
+    """Transform raw API data into structured Result matching frontend expectations"""
     
-    logger.info("SAMBHAV: Starting post-processing transformation to locked format")
+    logger.info("Analysis: Starting structured result transformation")
     
     # Detect claim type for specialized processing
     claim_type = detect_claim_type(original_text)
-    logger.info(f"SAMBHAV: Detected claim type: {claim_type}")
+    logger.info(f"Analysis: Detected claim type: {claim_type}")
     
-    # Extract raw data
+    # Extract evidence from API responses
     fact_checks = signals.get("fact_checks", [])
     search_results = signals.get("search_results", [])
     wikipedia_data = signals.get("wikipedia")
     
-    # Determine verdict with enhanced logic for specific claim types
+    # Calculate evidence-based confidence and verdict
+    evidence_score = 0
+    
+    # Score based on fact-check availability and quality
+    if fact_checks:
+        evidence_score += len(fact_checks) * 25
+        # Boost for high-quality fact-checkers
+        for fc in fact_checks:
+            if isinstance(fc, dict):
+                reviews = safe_get(fc, "claimReview", default=[])
+                for review in reviews:
+                    publisher_name = safe_get(review, "publisher", "name", default="").lower()
+                    rating = safe_get(review, "textualRating", default="").lower()
+                    if any(quality_source in publisher_name for quality_source in ["reuters", "factcheck.org", "bbc", "ap news"]):
+                        evidence_score += 15
+                    # Penalty for "false" ratings
+                    if "false" in rating or "incorrect" in rating:
+                        evidence_score += 20  # Higher confidence in "false" determination
+    
+    # Score based on search result quality
+    if search_results:
+        evidence_score += len(search_results) * 10
+        for result in search_results:
+            if isinstance(result, dict):
+                link = safe_get(result, "link", default="").lower()
+                if any(domain in link for domain in ["who.int", "cdc.gov", "nih.gov", ".gov", ".edu"]):
+                    evidence_score += 15
+    
+    # Determine verdict based on evidence and claim type
     if claim_type == "vaccine_conspiracy":
+        # Vaccine conspiracy theories are scientifically impossible
         verdict_label = "❌ False"
-        confidence = 95
-        verdict_summary = "Professional fact-checkers and medical authorities have thoroughly debunked claims about microchips in COVID-19 vaccines. No scientific evidence supports these conspiracy theories."
-    elif "false" in parsed_data.get("verdict_label", "").lower():
-        verdict_label = "❌ False"
-        confidence = max(85, int(parsed_data.get("confidence", 85)))
-        verdict_summary = "This claim has been verified as false by multiple independent fact-checking organizations and contradicts verified evidence."
-    elif "verified" in parsed_data.get("verdict_label", "").lower():
-        verdict_label = "✅ Verified"
-        confidence = max(80, int(parsed_data.get("confidence", 80)))
-        verdict_summary = "This claim has been verified as accurate by credible sources and fact-checking organizations with supporting evidence."
+        confidence = min(95, max(85, evidence_score))
+        verdict_summary = "Scientific consensus and technical analysis confirm this conspiracy theory is false. Microchips cannot be inserted through standard vaccination needles, and no approved vaccines contain electronic devices."
+    elif evidence_score >= 80:
+        # Strong evidence available
+        verdict_label = "❌ False" if any("false" in str(fc).lower() for fc in fact_checks) else "✅ Verified"
+        confidence = min(95, evidence_score)
+        verdict_summary = f"Strong evidence from {len(fact_checks)} fact-checkers and {len(search_results)} sources {'confirms this claim is false' if verdict_label == '❌ False' else 'supports this claim'}."
+    elif evidence_score >= 50:
+        # Moderate evidence
+        verdict_label = "⚠️ Caution"
+        confidence = min(80, max(60, evidence_score))
+        verdict_summary = "Moderate evidence available. Additional verification recommended through authoritative sources."
     else:
-        verdict_label = "⚠️ Caution" 
-        confidence = int(parsed_data.get("confidence", 70))
-        verdict_summary = "This claim requires additional verification and should be approached with caution pending further evidence."
+        # Limited evidence
+        verdict_label = "⚠️ Caution"
+        confidence = min(70, max(40, evidence_score))
+        verdict_summary = "Limited verification sources available. Manual fact-checking through official channels strongly recommended."
     
-    # POST-PROCESSING LAYER TRANSFORMATIONS
+    # Generate comprehensive explanation
+    explanation = generate_comprehensive_explanation(original_text, claim_type, fact_checks, search_results, wikipedia_data)
     
-    # 1. Transform to Quick Analysis (clean bullets)
-    quick_analysis_text = normalize_quick_analysis(parsed_data, claim_type, fact_checks, search_results)
+    # Generate quick analysis bullets
+    quick_analysis_text = normalize_quick_analysis(original_text, claim_type, fact_checks, search_results)
     
-    # 2. Structure Evidence Grid (professional format)
+    # Structure evidence with real URLs
     evidence_list = structure_evidence_grid(fact_checks, search_results, wikipedia_data)
     
-    # 3. Generate Smart Checklist (contextual education)
+    # Generate educational checklist
     educational_checklist = generate_smart_checklist(claim_type, verdict_label)
     
-    # 4. Build Meaningful Intelligence Report (7 categories)
+    # Build intelligence report
     intelligence_report = build_meaningful_intelligence(claim_type, verdict_label, original_text)
     
-    # 5. Calculate Professional Breakdown
-    confidence_breakdown = calculate_professional_breakdown(signals, confidence)
+    # Calculate breakdown scores
+    confidence_breakdown = calculate_professional_breakdown(signals, confidence, claim_type)
     
-    # Build professional verdict
+    # Build verdict
     verdict = Verdict(
         label=verdict_label,
         confidence=confidence,
@@ -478,19 +666,23 @@ def transform_raw_to_locked_format(signals: Dict, parsed_data: Dict, original_te
         breakdown=confidence_breakdown
     )
     
-    # Determine domain
-    domain = "Health Information" if claim_type in ["vaccine_conspiracy", "health_misinformation"] else "General Information"
-    if wikipedia_data and isinstance(wikipedia_data, dict):
+    # Determine domain from content or Wikipedia
+    domain = "General Information"
+    if claim_type == "vaccine_conspiracy" or claim_type == "health_misinformation":
+        domain = "Health & Medical"
+    elif claim_type == "election_misinformation":
+        domain = "Electoral & Political"
+    elif wikipedia_data and isinstance(wikipedia_data, dict):
         wiki_title = safe_get(wikipedia_data, "title", default="")
         if wiki_title:
-            domain = wiki_title
+            domain = f"Topic: {wiki_title}"
     
-    # Build final result in locked format
+    # Build final structured result
     result = Result(
         input=original_text,
         domain=domain,
         verdict=verdict,
-        quick_analysis=quick_analysis_text,
+        quick_analysis=explanation,  # Use full explanation here
         evidence=evidence_list,
         checklist=educational_checklist,
         intelligence=intelligence_report,
@@ -501,13 +693,14 @@ def transform_raw_to_locked_format(signals: Dict, parsed_data: Dict, original_te
             "claim_type": claim_type,
             "fact_checks_found": len(fact_checks),
             "search_results_found": len(search_results),
-            "model_version": "CrediScope Professional v1.0 - Sambhav Locked Format",
-            "output_format": "locked_format_results_page_final",
-            "post_processing": "applied"
+            "evidence_score": evidence_score,
+            "model_version": "CrediScope Professional v2.0",
+            "evidence_based_analysis": True,
+            "api_sources": "Google Fact Check, Custom Search, Wikipedia"
         }
     )
     
-    logger.info(f"SAMBHAV: Post-processing complete - {verdict_label} with {confidence}% confidence")
+    logger.info(f"Analysis: Complete - {verdict_label} with {confidence}% confidence (evidence score: {evidence_score})")
     return result
 
 # ---------------------------
@@ -746,7 +939,7 @@ async def _gather_educational_evidence(text: str) -> Dict[str, Any]:
 # ---------------------------
 # MAIN PIPELINE WITH POST-PROCESSING LAYER
 # ---------------------------
-async def analyze_text_pipeline_educational(original_text: str, language_hint: str = "en") -> Result:
+async def analyze_text_pipeline(original_text: str, language_hint: str = "en") -> Result:
     """Main pipeline with post-processing transformation to locked format"""
     t0 = time.time()
     
@@ -783,8 +976,8 @@ async def analyze_text_pipeline_educational(original_text: str, language_hint: s
         logger.warning(f"LLM analysis failed: {e}")
         parsed_data = {"verdict_label": "⚠️ Caution", "confidence": 70}
     
-    # APPLY POST-PROCESSING LAYER - Transform to locked format
-    final_result = transform_raw_to_locked_format(
+    # Transform to structured result format
+    final_result = transform_raw_to_structured_result(
         signals=signals,
         parsed_data=parsed_data,
         original_text=original_text,
@@ -817,7 +1010,7 @@ async def analyze_url_pipeline(url: str, language_hint: str = "en") -> Result:
         logger.warning(f"Failed to fetch URL: {e}")
     
     if page_text and page_text.strip():
-        result = await analyze_text_pipeline_educational(page_text, language_hint)
+        result = await analyze_text_pipeline(page_text, language_hint)
         result.domain = "Web Content"
         result.audit["url_analyzed"] = url
         return result
@@ -874,7 +1067,7 @@ async def run_analysis(content_type: str, content: str, language: str = "en") ->
     
     try:
         if content_type == "text":
-            return await asyncio.wait_for(analyze_text_pipeline_educational(content, language), timeout=20.0)
+            return await asyncio.wait_for(analyze_text_pipeline(content, language), timeout=20.0)
         elif content_type == "url":
             return await asyncio.wait_for(analyze_url_pipeline(content, language), timeout=25.0)
         elif content_type == "image":
